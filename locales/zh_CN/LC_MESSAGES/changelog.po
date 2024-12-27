@@ -1,0 +1,569 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../CHANGELOG.md:2
+msgid "Change Log"
+msgstr ""
+
+#: ../../../CHANGELOG.md:4
+msgid "0.6.1 - 2024-08-02"
+msgstr ""
+
+#: ../../../CHANGELOG.md:6
+msgid "⬆️ Update sphinx to >=6,<9 by {user}`chrisjsewell` in {pr}`212`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:7
+msgid ""
+"👌 Reduce right-padding of dropdown title by {user}`chrisjsewell` in "
+"{pr}`198`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:9
+msgid "0.6.0 - 2024-05-23"
+msgstr ""
+
+#: ../../../CHANGELOG.md:11
+msgid "Dependencies"
+msgstr ""
+
+#: ../../../CHANGELOG.md:13
+msgid "⬆️ Python v3.9-3.12 by {user}`chrisjsewell` in {pr}`186`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:14
+msgid "⬆️ Octicon icons to v19.8.0 by {user}`ffvpor` in {pr}`171`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:16
+msgid "New"
+msgstr ""
+
+#: ../../../CHANGELOG.md:18
+msgid "✨ Create custom directives"
+msgstr ""
+
+#: ../../../CHANGELOG.md:20
+msgid ""
+"You can use the `sd_custom_directives` configuration option in your "
+"`conf.py` to add custom directives, with default option values:"
+msgstr ""
+
+#: ../../../CHANGELOG.md:35
+msgid ""
+"The key is the new directive name to add, and the value is a dictionary "
+"with the following keys:"
+msgstr ""
+
+#: ../../../CHANGELOG.md:37
+msgid "`inherit`: The directive to inherit from (e.g. `dropdown`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:38
+msgid ""
+"`argument`: The default argument (optional, only for directives that take"
+" a single argument)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:39
+msgid "`options`: A dictionary of default options for the directive (optional)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:41
+msgid "by {user}`chrisjsewell` in {pr}`194`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:43
+msgid "✨ sync tabs by URL query parameters"
+msgstr ""
+
+#: ../../../CHANGELOG.md:45
+msgid ""
+"Synchronised tabs can now be selected by adding a query parameter to the "
+"URL, for that sync-group, such as `?code=python` for"
+msgstr ""
+
+#: ../../../CHANGELOG.md:57
+msgid ""
+"The last selected tab key, per group, is also persisted to "
+"`SessionStorage`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:59
+msgid "by {user}`mikemckiernan` and {user}`chrisjsewell` in {pr}`196`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:61
+msgid "Improve"
+msgstr ""
+
+#: ../../../CHANGELOG.md:63
+msgid ""
+"👌 Use reference name by default for internal link cards by "
+"{user}`gabalafou` in {pr}`183`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:64
+msgid "👌 Improve specificity of JS function name by {user}`danirus` in {pr}`153`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:65
+msgid ""
+"👌 Remove duplicate CSS hashing for sphinx >= 7.1 by {user}`chrisjsewell` "
+"in {pr}`193`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:67
+msgid "👌 Improve `dropdown` title bar"
+msgstr ""
+
+#: ../../../CHANGELOG.md:69
+msgid "There are three visible changes:"
+msgstr ""
+
+#: ../../../CHANGELOG.md:71
+msgid ""
+"The \"default\" behaviour of the right chevron is to go from right-facing"
+" (closed) to down-facing (open), instead of down-facing (closed) to up-"
+"facing (open). There is also a rotate transition on opening/closing. The "
+"old default behaviour can be retained by using the new `:chevron: down-"
+"up` directive option."
+msgstr ""
+
+#: ../../../CHANGELOG.md:73
+msgid ""
+"The prefix icon (optional), title text, and chevron state icon are now "
+"all better aligned"
+msgstr ""
+
+#: ../../../CHANGELOG.md:74
+msgid "The top/bottom padding is now 0.5em instead of 1em"
+msgstr ""
+
+#: ../../../CHANGELOG.md:76
+msgid ""
+"The PR also introduces three new CSS variables to control font sizes of "
+"the dropdown:"
+msgstr ""
+
+#: ../../../CHANGELOG.md:84
+msgid ""
+"Internally, the HTML / CSS is changed, such that the title is now an "
+"`inline-flex` box, with three columns arranged with `justify-content: "
+"space-between`:"
+msgstr ""
+
+#: ../../changelog.md:1
+msgid "icon (optional)"
+msgstr ""
+
+#: ../../changelog.md:1
+msgid "text (`flex-grow: 1`)"
+msgstr ""
+
+#: ../../changelog.md:1
+msgid "state chevron"
+msgstr ""
+
+#: ../../../CHANGELOG.md:90
+msgid ""
+"Also, the state chevron was previously two distinct SVGs (with one "
+"hidden), but now is one that get rotated on open/close."
+msgstr ""
+
+#: ../../../CHANGELOG.md:92
+msgid "by {user}`chrisjsewell` in {pr}`192`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:94
+msgid "Fix"
+msgstr ""
+
+#: ../../../CHANGELOG.md:96
+msgid "🐛 Fix tab-item label with nested syntax by {user}`Praecordi` in {pr}`135`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:97
+msgid "🐛 Fix do not close `input` tag by {user}`chrisjsewell` in {pr}`195`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:99
+msgid "Internal"
+msgstr ""
+
+#: ../../../CHANGELOG.md:101
+msgid "📚 Update theme versions by {user}`chrisjsewell` in {pr}`189`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:102
+msgid "📚 Make octicon list a table by {user}`chrisjsewell` in {pr}`188`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:103
+msgid ""
+"📚 Add sphinx-immaterial to doc theme builds by {user}`chrisjsewell` in "
+"{pr}`190`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:104
+msgid "📚 Change syntax dropdown color by {user}`chrisjsewell` in {pr}`191`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:106
+msgid "🔧 Add FIPS compliant flag to md5 call by {user}`gabor-varga` in {pr}`162`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:107
+msgid ""
+"🔧 define `build.os` for RTD to fix build by {user}`sciencewhiz` in "
+"{pr}`176`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:108
+msgid "🔧 Move to ruff by {user}`chrisjsewell` in {pr}`185`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:110
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.5.0...v0.6.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:112
+msgid "0.5.0 - 2023-07-27"
+msgstr ""
+
+#: ../../../CHANGELOG.md:114
+msgid "⬆️ Drop Python 3.7 support, by {user}`chrisjsewell` in {pr}`146`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:115
+msgid "⬆️ UPGRADE: sphinx>=5,<8, by {user}`chrisjsewell` in {pr}`148`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:117
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.4.1...v0.5.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:119
+msgid "v0.4.0 - 2023-04-13"
+msgstr ""
+
+#: ../../../CHANGELOG.md:121
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.3.0...v0.4.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:123
+msgid "Enhancements made"
+msgstr ""
+
+#: ../../../CHANGELOG.md:125
+msgid ""
+"Make default blue color a11y friendly. {pr}`124` ({user}`feanil`, "
+"{user}`choldgraf`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:126
+msgid ""
+"Make card titles translatable {pr}`113` ({user}`jpmckinney`, "
+"{user}`chrisjsewell`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:128
+msgid "Version upgrades"
+msgstr ""
+
+#: ../../../CHANGELOG.md:130
+msgid "Sphinx 6.x. {pr}`106`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:131
+msgid "Support for Python 3.11 {pr}`105`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:133
+msgid "Contributors to this release"
+msgstr ""
+
+#: ../../../CHANGELOG.md:135
+msgid ""
+"The following people contributed discussions, new ideas, code and "
+"documentation contributions, and review. See [our definition of "
+"contributors](https://github-activity.readthedocs.io/en/latest/#how-does-"
+"this-tool-define-contributions-in-the-reports)."
+msgstr ""
+
+#: ../../../CHANGELOG.md:138
+msgid ""
+"([GitHub contributors page for this "
+"release](https://github.com/executablebooks/sphinx-"
+"design/graphs/contributors?from=2022-08-22&to=2023-04-12&type=c))"
+msgstr ""
+
+#: ../../../CHANGELOG.md:140
+msgid "v0.3.0 - 2022-08-22"
+msgstr ""
+
+#: ../../../CHANGELOG.md:142
+msgid ""
+"⬆️ Update Materials Design Icons to v4.0.0-46-gc9e5528, thanks to "
+"{user}`2bndy5` ({pr}`69`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:143
+msgid "🐛 FIX: dropdown/tab-item `:name:` options ({pr}`91`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:144
+msgid "🐛 FIX: Docs build against non-html formats ({pr}`88`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:145
+msgid "👌 IMPROVE: Add card options `class-img-top`/`class-img-bottom` ({pr}`92`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:146
+msgid "👌 IMPROVE: Add `link-alt` to fix card link accessibility ({pr}`89`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:147
+msgid ""
+"adds the `link-alt` option to `card` (and `grid-item-card`) directives, "
+"in order to assign a discernable name to the link (for screen readers)."
+msgstr ""
+
+#: ../../../CHANGELOG.md:148
+msgid "👌 IMPROVE: Make tab ids deterministic ({pr}`93`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:149
+msgid "Use increasing indices, rather than UUIDs"
+msgstr ""
+
+#: ../../../CHANGELOG.md:150
+msgid "🔧 MAINTAIN: Fix docutils `PendingDeprecationWarning` ({pr}`94`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:151
+msgid "📚 DOCS: Update font awesome icons ({pr}`64`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:153
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.2.0...v0.3.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:155
+msgid "v0.2.0 - 2022-06-14"
+msgstr ""
+
+#: ../../../CHANGELOG.md:157
+msgid "⬆️ Support Sphinx v5, drop v3"
+msgstr ""
+
+#: ../../../CHANGELOG.md:158
+msgid "⬆️ Add Python 3.10 support"
+msgstr ""
+
+#: ../../../CHANGELOG.md:160
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.1.0...v0.2.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:162
+msgid "v0.1.0 - 2022-04-21"
+msgstr ""
+
+#: ../../../CHANGELOG.md:164
+msgid ""
+"✨ NEW: Add material design icons roles, thanks to {user}`2bndy5` in "
+"{pr}`41`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:165
+msgid "⬆️ UPGRADE: octicons to v16.1.1, thanks to {user}`pocek` in {pr}`43`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:166
+msgid "🐛 FIX: Links in card titles by {user}`chrisjsewell` in {pr}`59`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:167
+msgid "🐛 FIX: Exception on missing card link by {user}`chrisjsewell` in {pr}`60`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:168
+msgid ""
+"🔧 MAINTAIN: Move from setuptools to flit for package build by "
+"{user}`chrisjsewell` in {pr}`58`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:169
+msgid ""
+"🔧 MAINTAIN: Drop furo-specific stylesheet, thanks to {user}`pradyunsg` in"
+" {pr}`22`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:171
+msgid ""
+"**Full Changelog**: <https://github.com/executablebooks/sphinx-"
+"design/compare/v0.0.13...v0.1.0>"
+msgstr ""
+
+#: ../../../CHANGELOG.md:173
+msgid "v0.0.13 - 2021-10-27"
+msgstr ""
+
+#: ../../../CHANGELOG.md:175
+msgid "✨ NEW: add icon `far` role ({pr}`35`), thanks to {user}`OriolAbril`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:177
+msgid "👌 IMPROVE: Styling for tabs ({pr}`21`), thanks to {user}`pradyunsg`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:179
+msgid ""
+"👌 IMPROVE: Properly remove the border on dropdown card body ({pr}`23`), "
+"thanks to {user}`pradyunsg`"
+msgstr ""
+
+#: ../../../CHANGELOG.md:181
+msgid "🐛 FIX: `sd-outline-*` classes color ({pr}`25`)"
+msgstr ""
+
+#: ../../../CHANGELOG.md:183
+msgid "v0.0.11 - 2021-09-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:185
+msgid "✨ NEW: Add `ref-type` option to `button-ref` directive"
+msgstr ""
+
+#: ../../../CHANGELOG.md:187
+msgid "v0.0.10 - 2021-08-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:189
+msgid ""
+"✨ NEW: Add `grid-item` directive `child-direction` and `child-align` "
+"options"
+msgstr ""
+
+#: ../../../CHANGELOG.md:191
+msgid "✨ NEW: Add `card` directive `img-background` option"
+msgstr ""
+
+#: ../../../CHANGELOG.md:193
+msgid "v0.0.9 - 2021-06-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:195
+msgid "♻️ REFACTOR: `test_sd_hide_root_title` to `sd_hide_title` front-matter"
+msgstr ""
+
+#: ../../../CHANGELOG.md:197
+msgid "👌 IMPROVE: dropdown chevrons"
+msgstr ""
+
+#: ../../../CHANGELOG.md:199
+msgid "v0.0.8 - 2021-06-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:201
+msgid "✨ NEW: Add `test_sd_hide_root_title` config option to hide the root title."
+msgstr ""
+
+#: ../../../CHANGELOG.md:203
+msgid "👌 IMPROVE: `sd-card-hover:hover` add scale 101%"
+msgstr ""
+
+#: ../../../CHANGELOG.md:205
+msgid "📚 DOCS: Update landing page"
+msgstr ""
+
+#: ../../../CHANGELOG.md:207
+msgid "v0.0.7 - 2021-05-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:209
+msgid "✨ NEW: Add `reverse` option for `grid` directive"
+msgstr ""
+
+#: ../../../CHANGELOG.md:211
+msgid "✨ NEW: Add animations"
+msgstr ""
+
+#: ../../../CHANGELOG.md:213
+msgid "v0.0.6 - 2021-04-08"
+msgstr ""
+
+#: ../../../CHANGELOG.md:215
+msgid "✨ NEW: Add `card-carousel` directive"
+msgstr ""
+
+#: ../../../CHANGELOG.md:217
+msgid "v0.0.5 - 2021-28-07"
+msgstr ""
+
+#: ../../../CHANGELOG.md:219
+msgid "👌 IMPROVE: Make octicon's size variable"
+msgstr ""
+
+#: ../../../CHANGELOG.md:221
+msgid "v0.0.4 - 2021-28-07"
+msgstr ""
+
+#: ../../../CHANGELOG.md:223
+msgid "👌 IMPROVE: Allow `auto` for grid columns"
+msgstr ""
+
+#: ../../../CHANGELOG.md:225
+msgid "v0.0.3 - 2021-26-07"
+msgstr ""
+
+#: ../../../CHANGELOG.md:227
+msgid "👌 IMPROVE: Add more CSS classes and add documentation 📚"
+msgstr ""
+
+#: ../../../CHANGELOG.md:229
+msgid "v0.0.2 - 2021-23-07"
+msgstr ""
+
+#: ../../../CHANGELOG.md:231
+msgid "Improve documentation 📚"
+msgstr ""
+
+#: ../../../CHANGELOG.md:233
+msgid "v0.0.1 - 2021-22-07"
+msgstr ""
+
+#: ../../../CHANGELOG.md:235
+msgid "Initial release 🎉"
+msgstr ""
+

@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../get_started.md:1
+msgid "Getting Started"
+msgstr ""
+
+#: ../../get_started.md:3
+msgid "Chris Sewell"
+msgstr ""
+
+#: ../../get_started.md:3
+msgid ""
+"<svg version=\"1.1\" width=\"16.0px\" height=\"16.0px\" class=\"sd-"
+"octicon sd-octicon-calendar\" viewBox=\"0 0 16 16\" aria-"
+"hidden=\"true\"><path d=\"M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 "
+"1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 "
+"16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 "
+"0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 "
+".25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 "
+"0-.25-.25Z\"></path></svg>today"
+msgstr ""
+
+#: ../../get_started.md:3
+msgid ""
+"<svg version=\"1.1\" width=\"16.0px\" height=\"16.0px\" class=\"sd-"
+"octicon sd-octicon-clock\" viewBox=\"0 0 16 16\" aria-"
+"hidden=\"true\"><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 "
+"6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 "
+"1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 "
+"0Z\"></path></svg>1 min read"
+msgstr ""
+
+#: ../../get_started.md:12
+msgid "Usage"
+msgstr ""
+
+#: ../../get_started.md:14
+msgid ""
+"Simply pip install `sphinx-design` and add the extension to your "
+"`conf.py`:"
+msgstr ""
+
+#: ../../get_started.md:20
+msgid ""
+"For using with [MyST Parser](https://github.com/executablebooks/myst-"
+"parser), for Markdown documentation, it is recommended to use the "
+"`colon_fence` syntax extension:"
+msgstr ""
+
+#: ../../get_started.md:27
+msgid "Configuration"
+msgstr ""
+
+#: ../../get_started.md:29
+msgid "To hide the the title header of a page, add to the top of the page:"
+msgstr ""
+
+#: ../../get_started.md
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../get_started.md
+msgid "RestructuredText"
+msgstr ""
+
+#: ../../get_started.md:46
+msgid "Creating custom directives"
+msgstr ""
+
+#: ../../get_started.md:51
+msgid ""
+"You can use the `sd_custom_directives` configuration option in your "
+"`conf.py` to add custom directives, with default option values:"
+msgstr ""
+
+#: ../../get_started.md:66
+msgid ""
+"The key is the new directive name to add, and the value is a dictionary "
+"with the following keys:"
+msgstr ""
+
+#: ../../get_started.md:68
+msgid "`inherit`: The directive to inherit from (e.g. `dropdown`)"
+msgstr ""
+
+#: ../../get_started.md:69
+msgid ""
+"`argument`: The default argument (optional, only for directives that take"
+" a single argument)"
+msgstr ""
+
+#: ../../get_started.md:70
+msgid "`options`: A dictionary of default options for the directive (optional)"
+msgstr ""
+
+#: ../../get_started.md:72
+msgid "Supported browsers"
+msgstr ""
+
+#: ../../get_started.md:74
+msgid "Chrome >= 60"
+msgstr ""
+
+#: ../../get_started.md:75
+msgid "Firefox >= 60"
+msgstr ""
+
+#: ../../get_started.md:76
+msgid "Firefox ESR"
+msgstr ""
+
+#: ../../get_started.md:77
+msgid "iOS >= 12"
+msgstr ""
+
+#: ../../get_started.md:78
+msgid "Safari >= 12"
+msgstr ""
+
+#: ../../get_started.md:79
+msgid "Explorer >= 12"
+msgstr ""
+
+#: ../../get_started.md:81
+msgid "(Mirrors: <https://github.com/twbs/bootstrap/blob/v5.0.2/.browserslistrc>)"
+msgstr ""
+
+#: ../../get_started.md:83
+msgid "Migrating from sphinx-panels"
+msgstr ""
+
+#: ../../get_started.md:85
+msgid ""
+"This package arose as an iteration on [sphinx-"
+"panels](https://github.com/executablebooks/sphinx-panels), with the "
+"intention to make it more flexible, easier to use, and minimise CSS "
+"clashes wth sphinx themes."
+msgstr ""
+
+#: ../../get_started.md:87
+msgid "Notable changes:"
+msgstr ""
+
+#: ../../get_started.md:89
+msgid "Reduce direct use of CSS classes"
+msgstr ""
+
+#: ../../get_started.md:91
+msgid "These are replaced by the use of directive options, which are:"
+msgstr ""
+
+#: ../../get_started.md:93
+msgid "Easier to understand"
+msgstr ""
+
+#: ../../get_started.md:94
+msgid "Easier to validate"
+msgstr ""
+
+#: ../../get_started.md:95
+msgid "Easier to work with non-HTML outputs"
+msgstr ""
+
+#: ../../get_started.md:96
+msgid "Easier to improve/refactor"
+msgstr ""
+
+#: ../../get_started.md:98
+msgid "`panel` directive replaced"
+msgstr ""
+
+#: ../../get_started.md:100
+msgid ""
+"The `panel` directive is replaced by the use of the top-level `grid` "
+"directive, then using `grid-item-card` directive children, rather than "
+"delimiting cards by `---`."
+msgstr ""
+
+#: ../../get_started.md:103
+msgid ""
+"If no card is needed, then the `grid-item` directive can be used instead "
+"and `card` can be also used independently of grids."
+msgstr ""
+
+#: ../../get_started.md:105
+msgid ""
+"Approximately, `.. panels::` is equivalent to `.. grid:: 1 2 2 2` with "
+"option `:gutter: 2`."
+msgstr ""
+
+#: ../../get_started.md:107
+msgid "`tabbed` directive replaced"
+msgstr ""
+
+#: ../../get_started.md:109
+msgid ""
+"The `tabbed` directive is replaced by the use of the top-level `tab-set` "
+"directive, then using `tab-item` directive children."
+msgstr ""
+
+#: ../../get_started.md:112
+msgid "The `:sync:` option allows to synchronize tab selection across sets."
+msgstr ""
+
+#: ../../get_started.md:114
+msgid ""
+"The `tab-set-code` directive provides a shorthand for synced code "
+"examples."
+msgstr ""
+
+#: ../../get_started.md:116
+msgid "`link-button` directive replaced"
+msgstr ""
+
+#: ../../get_started.md:118
+msgid ""
+"The `link-button` directive is replaced by the use of `button-ref"
+"`/`button-link`."
+msgstr ""
+
+#: ../../get_started.md:120
+msgid "Directive options have also been added to replace the use of classes:"
+msgstr ""
+
+#: ../../get_started.md:122
+msgid "`stretched-link` -> `:click-parent:`"
+msgstr ""
+
+#: ../../get_started.md:123
+msgid "`btn-block` -> `:expand:`"
+msgstr ""
+
+#: ../../get_started.md:125
+msgid "`octicon` icon role"
+msgstr ""
+
+#: ../../get_started.md:127
+msgid ""
+"The default SVGs produced are now sized relative to the surrounding text "
+"(i.e. using `1em`). The syntax for specifying a custom size and adding "
+"classes is also changed."
+msgstr ""
+
+#: ../../get_started.md:130
+msgid ""
+"This is similar for favicon icons, where the `,` delimiter is also "
+"replaced by `;`, e.g. ``:fa:`name,class` `` -> ``:fa:`name;class` ``."
+msgstr ""
+
+#: ../../get_started.md:132
+msgid "Improved CSS"
+msgstr ""
+
+#: ../../get_started.md:134
+msgid ""
+"Updated Bootstrap CSS from v4 -> v5, which in particular allows top-level"
+" grid to define both column numbers and gutter sizes."
+msgstr ""
+
+#: ../../get_started.md:137
+msgid ""
+"All CSS classes are prefixed with `sd-` (no clash with other "
+"theme/extension CSS)"
+msgstr ""
+
+#: ../../get_started.md:139
+msgid "All colors use CSS variables (customisable)"
+msgstr ""
+

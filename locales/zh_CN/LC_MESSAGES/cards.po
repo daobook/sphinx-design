@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../cards.md:3
+msgid "Cards"
+msgstr ""
+
+#: ../../cards.md:5
+msgid ""
+"Cards contain content and actions about a single subject. A card is a "
+"flexible and extensible content container, it can be formatted with "
+"components including headers and footers, titles and images."
+msgstr ""
+
+#: ../../cards.md:9 ../../cards.md:31 ../../cards.md:55 ../../cards.md:62
+msgid "Card Title"
+msgstr ""
+
+#: ../../cards.md:11 ../../cards.md:34 ../../cards.md:58 ../../cards.md:67
+msgid "Card content"
+msgstr ""
+
+#: ../../cards.md:14
+msgid ""
+"See the [Material Design](https://material.io/components/cards) and "
+"[Bootstrap card](https://getbootstrap.com/docs/5.0/layout/grid/) "
+"descriptions for further details."
+msgstr ""
+
+#: ../../cards.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../cards.md:28
+msgid ""
+"All content before the first occurrence of three or more `^^^` is "
+"considered as a header, and all content after the final occurrence of "
+"three or more `+++` is considered as a footer:"
+msgstr ""
+
+#: ../../cards.md:32 ../../cards.md:56 ../../cards.md:63 ../../cards.md:95
+#: ../../cards.md:106
+msgid "Header"
+msgstr ""
+
+#: ../../cards.md:36 ../../cards.md:60 ../../cards.md:69 ../../cards.md:99
+#: ../../cards.md:110
+msgid "Footer"
+msgstr ""
+
+#: ../../cards.md:51
+msgid ""
+"When using cards in grids (see [`grid-item-card`](./grids.md)) footers "
+"can be aligned."
+msgstr ""
+
+#: ../../cards.md:65 ../../cards.md:227
+msgid "Longer"
+msgstr ""
+
+#: ../../cards.md:72
+msgid "Card images"
+msgstr ""
+
+#: ../../cards.md:74
+msgid ""
+"You can also add an image as the background of a card or at the "
+"top/bottom of the card, with the `img-background`, `img-top`, `img-"
+"bottom` options:"
+msgstr ""
+
+#: ../../cards.md:82 ../../cards.md:91 ../../cards.md:102
+msgid "your desired alt text"
+msgstr ""
+
+#: ../../cards.md:82 ../../cards.md:91 ../../cards.md:102
+msgid "Title"
+msgstr ""
+
+#: ../../cards.md:87
+msgid "Text"
+msgstr ""
+
+#: ../../cards.md:97 ../../cards.md:108 ../../cards.md:193 ../../cards.md:201
+#: ../../cards.md:209
+msgid "Content"
+msgstr ""
+
+#: ../../cards.md:128
+msgid "Clickable cards"
+msgstr ""
+
+#: ../../cards.md:130
+msgid ""
+"Using the `link` and `link-type` options, you can turn an entire card "
+"into a clickable link. Try hovering over then clicking on the cards "
+"below:"
+msgstr ""
+
+#: ../../cards.md:133
+msgid "Clickable Card (external)"
+msgstr ""
+
+#: ../../cards.md:137
+msgid "The entire card can be clicked to navigate to `https://example.com`."
+msgstr ""
+
+#: ../../cards.md:140
+msgid "Clickable Card (internal)"
+msgstr ""
+
+#: ../../cards.md:144
+msgid ""
+"The entire card can be clicked to navigate to the `cards-clickable` "
+"reference target."
+msgstr ""
+
+#: ../../cards.md:159
+msgid ""
+"The **external link** created above is equivalent to using "
+"`<https://example.com>` (<https://example.com>), or if the `link-alt` "
+"option is provided, `[alt text](https://example.com)` ([alt "
+"text](https://example.com))."
+msgstr ""
+
+#: ../../cards.md:165
+msgid ""
+"Using URLs as link text makes it harder for disabled people and for "
+"search engines to digest your web page, so it's best to provide link text"
+" via the `link-alt` option."
+msgstr ""
+
+#: ../../cards.md:170
+msgid ""
+"The **internal link** created above is equivalent to using `` {ref"
+"}`cards-clickable` `` ({ref}`cards-clickable`), or if the `link-alt` "
+"option is provided, `` {ref}`alt text <cards-clickable>` `` ({ref}`alt "
+"text <cards-clickable>`)."
+msgstr ""
+
+#: ../../cards.md:176
+msgid ""
+"You cannot add additional links to the clickable card, neither in the "
+"card title nor in the card body. The entire card becomes a single link to"
+" the destination you specify, which overrides any other links inside the "
+"card."
+msgstr ""
+
+#: ../../cards.md:183
+msgid "Aligning cards"
+msgstr ""
+
+#: ../../cards.md:185
+msgid ""
+"You can use the `text-align` option to align the text in a card, and also"
+" `auto` margins to align the cards horizontally."
+msgstr ""
+
+#: ../../cards.md:188
+msgid "Align Center"
+msgstr ""
+
+#: ../../cards.md:196
+msgid "Align Right"
+msgstr ""
+
+#: ../../cards.md:204
+msgid "Align Left"
+msgstr ""
+
+#: ../../cards.md:214
+msgid "Card carousels"
+msgstr ""
+
+#: ../../cards.md:216
+msgid ""
+"The `card-carousel` directive can be used to create a single row of fixed"
+" width, scrollable cards. The argument should be a number between 1 and "
+"12, to denote the number of cards to display."
+msgstr ""
+
+#: ../../cards.md:219
+msgid ""
+"When scrolling a carousel, the scroll will snap to the start of the "
+"nearest card:"
+msgstr ""
+
+#: ../../cards.md:223
+msgid "card 1"
+msgstr ""
+
+#: ../../cards.md:224 ../../cards.md:229
+msgid "content"
+msgstr ""
+
+#: ../../cards.md:226
+msgid "card 2"
+msgstr ""
+
+#: ../../cards.md:231
+msgid "card 3"
+msgstr ""
+
+#: ../../cards.md:233
+msgid "card 4"
+msgstr ""
+
+#: ../../cards.md:235
+msgid "card 5"
+msgstr ""
+
+#: ../../cards.md:237
+msgid "card 6"
+msgstr ""
+
+#: ../../cards.md:255
+msgid "`card` options"
+msgstr ""
+
+#: ../../cards.md:257
+msgid "width"
+msgstr ""
+
+#: ../../cards.md:258
+msgid "The width that the card should take up (in %): auto, 25%, 50%, 75%, 100%."
+msgstr ""
+
+#: ../../cards.md:260
+msgid "margin"
+msgstr ""
+
+#: ../../cards.md:261
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../cards.md:264
+msgid "text-align"
+msgstr ""
+
+#: ../../cards.md:265
+msgid "Default horizontal text alignment: left, right, center or justify"
+msgstr ""
+
+#: ../../cards.md:267
+msgid "img-background"
+msgstr ""
+
+#: ../../cards.md:268 ../../cards.md:274
+msgid ""
+"A URI (relative file path or URL) to an image to be placed below the "
+"content."
+msgstr ""
+
+#: ../../cards.md:270
+msgid "img-top"
+msgstr ""
+
+#: ../../cards.md:271
+msgid ""
+"A URI (relative file path or URL) to an image to be placed above the "
+"content."
+msgstr ""
+
+#: ../../cards.md:273
+msgid "img-bottom"
+msgstr ""
+
+#: ../../cards.md:276
+msgid "img-alt"
+msgstr ""
+
+#: ../../cards.md:277
+msgid "Alternative text for the image (that will be used by screen-readers)."
+msgstr ""
+
+#: ../../cards.md:279
+msgid "link"
+msgstr ""
+
+#: ../../cards.md:280
+msgid "Turn the entire card into a clickable link to an external/internal target."
+msgstr ""
+
+#: ../../cards.md:282
+msgid "link-type"
+msgstr ""
+
+#: ../../cards.md:283
+msgid "Type of link: `url` (default), `ref`, `doc`, `any`."
+msgstr ""
+
+#: ../../cards.md:285
+msgid "link-alt"
+msgstr ""
+
+#: ../../cards.md:286
+msgid "Alternative text for the link (that will be used by screen-readers)."
+msgstr ""
+
+#: ../../cards.md:288
+msgid "shadow"
+msgstr ""
+
+#: ../../cards.md:289
+msgid "The size of the shadow below the card: `none`, `sm` (default), `md`, `lg`."
+msgstr ""
+
+#: ../../cards.md:291
+msgid "class-card"
+msgstr ""
+
+#: ../../cards.md:292
+msgid "Additional CSS classes for the card container element."
+msgstr ""
+
+#: ../../cards.md:294
+msgid "class-header"
+msgstr ""
+
+#: ../../cards.md:295
+msgid "Additional CSS classes for the header element."
+msgstr ""
+
+#: ../../cards.md:297
+msgid "class-body"
+msgstr ""
+
+#: ../../cards.md:298
+msgid "Additional CSS classes for the body element."
+msgstr ""
+
+#: ../../cards.md:300
+msgid "class-title"
+msgstr ""
+
+#: ../../cards.md:301
+msgid "Additional CSS classes for the title element."
+msgstr ""
+
+#: ../../cards.md:303
+msgid "class-footer"
+msgstr ""
+
+#: ../../cards.md:304
+msgid "Additional CSS classes for the footer element."
+msgstr ""
+
+#: ../../cards.md:306
+msgid "class-img-top"
+msgstr ""
+
+#: ../../cards.md:307
+msgid "Additional CSS classes for the top image (if present)."
+msgstr ""
+
+#: ../../cards.md:309
+msgid "class-img-bottom"
+msgstr ""
+
+#: ../../cards.md:310
+msgid "Additional CSS classes for the bottom image (if present)."
+msgstr ""
+

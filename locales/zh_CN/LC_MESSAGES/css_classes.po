@@ -1,0 +1,600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../css_classes.md:1
+msgid "CSS Classes"
+msgstr ""
+
+#: ../../css_classes.md:3
+msgid ""
+"For most roles/directive, it is preferentially recommended to use the "
+"available options to style components since, for example, this allows for"
+" better cross-output-format styling."
+msgstr ""
+
+#: ../../css_classes.md:5
+msgid ""
+"But for custom cases, these roles/directives also provide `class` options"
+" for adding CSS classes directly to element, or you can directly use the "
+"`div` directive. All CSS classes that are part of sphinx-design are "
+"prefixed with `sd-`."
+msgstr ""
+
+#: ../../css_classes.md:9
+msgid "Some CSS styled text"
+msgstr ""
+
+#: ../../css_classes.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../css_classes.md:24
+msgid ""
+"If you find yourself using a class(es) often, consider opening an issue "
+"to request a new role/directive or option!"
+msgstr ""
+
+#: ../../css_classes.md:26
+msgid ""
+"The `div` directive also has the `style` option, which allows you to add "
+"inline CSS styles, although it is not recommended to use this option for "
+"most cases."
+msgstr ""
+
+#: ../../css_classes.md:28
+msgid "Text"
+msgstr ""
+
+#: ../../css_classes.md:30
+msgid "Classes are available for styling and alignment:"
+msgstr ""
+
+#: ../../css_classes.md:32
+msgid "Alignment:"
+msgstr ""
+
+#: ../../css_classes.md:33
+msgid "`sd-text-justify`"
+msgstr ""
+
+#: ../../css_classes.md:34
+msgid "`sd-text-left`"
+msgstr ""
+
+#: ../../css_classes.md:35
+msgid "`sd-text-right`"
+msgstr ""
+
+#: ../../css_classes.md:36
+msgid "`sd-text-center`"
+msgstr ""
+
+#: ../../css_classes.md:37
+msgid "Size (size decreases from 1 to 6):"
+msgstr ""
+
+#: ../../css_classes.md:38
+msgid "`sd-fs-1`"
+msgstr ""
+
+#: ../../css_classes.md:39
+msgid "`sd-fs-2`"
+msgstr ""
+
+#: ../../css_classes.md:40
+msgid "`sd-fs-3`"
+msgstr ""
+
+#: ../../css_classes.md:41
+msgid "`sd-fs-4`"
+msgstr ""
+
+#: ../../css_classes.md:42
+msgid "`sd-fs-5`"
+msgstr ""
+
+#: ../../css_classes.md:43
+msgid "`sd-fs-6`"
+msgstr ""
+
+#: ../../css_classes.md:44
+msgid "Weight:"
+msgstr ""
+
+#: ../../css_classes.md:45
+msgid "`sd-font-weight-light`"
+msgstr ""
+
+#: ../../css_classes.md:46
+msgid "`sd-font-weight-lighter`"
+msgstr ""
+
+#: ../../css_classes.md:47
+msgid "`sd-font-weight-normal`"
+msgstr ""
+
+#: ../../css_classes.md:48
+msgid "`sd-font-weight-bold`"
+msgstr ""
+
+#: ../../css_classes.md:49
+msgid "`sd-font-weight-bolder`"
+msgstr ""
+
+#: ../../css_classes.md:50
+msgid "Style"
+msgstr ""
+
+#: ../../css_classes.md:51
+msgid "`sd-font-italic`"
+msgstr ""
+
+#: ../../css_classes.md:52
+msgid "`sd-text-decoration-none`"
+msgstr ""
+
+#: ../../css_classes.md:53
+msgid "`sd-text-lowercase`"
+msgstr ""
+
+#: ../../css_classes.md:54
+msgid "`sd-text-uppercase`"
+msgstr ""
+
+#: ../../css_classes.md:55
+msgid "`sd-text-capitalize`"
+msgstr ""
+
+#: ../../css_classes.md:56
+msgid "Wrapping"
+msgstr ""
+
+#: ../../css_classes.md:57
+msgid "`sd-text-wrap`"
+msgstr ""
+
+#: ../../css_classes.md:58
+msgid "`sd-text-nowrap`"
+msgstr ""
+
+#: ../../css_classes.md:59
+msgid "`sd-text-truncate` (requires `display: inline-block` or `display: block`)"
+msgstr ""
+
+#: ../../css_classes.md:60
+msgid "Color"
+msgstr ""
+
+#: ../../css_classes.md:61
+msgid ""
+"`sd-text-{semantic color name}` (uses `--sd-color-{semantic color name}` "
+"CSS variable)"
+msgstr ""
+
+#: ../../css_classes.md:62
+msgid ""
+"`sd-bg-text-{semantic color name}` (uses `--sd-color-{semantic color "
+"name}-text` CSS variable)"
+msgstr ""
+
+#: ../../css_classes.md:64
+msgid "Display"
+msgstr ""
+
+#: ../../css_classes.md:66
+msgid ""
+"Define the layout of an element and its children (see "
+"[`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display)):"
+msgstr ""
+
+#: ../../css_classes.md:68
+msgid "`sd-d-none`"
+msgstr ""
+
+#: ../../css_classes.md:69
+msgid "`sd-d-inline`"
+msgstr ""
+
+#: ../../css_classes.md:70
+msgid "`sd-d-inline-block`"
+msgstr ""
+
+#: ../../css_classes.md:71
+msgid "`sd-d-block`"
+msgstr ""
+
+#: ../../css_classes.md:72
+msgid "`sd-d-grid`"
+msgstr ""
+
+#: ../../css_classes.md:73
+msgid "`sd-d-flex-row` (align items horizontally)"
+msgstr ""
+
+#: ../../css_classes.md:74
+msgid "`sd-d-flex-column` (align items vertically)"
+msgstr ""
+
+#: ../../css_classes.md:75
+msgid "`sd-d-inline-flex`"
+msgstr ""
+
+#: ../../css_classes.md:77
+msgid ""
+"Variants are also available for screen-sizes (xs, sm, md, lg), e.g. `sd-d"
+"-sm-none`."
+msgstr ""
+
+#: ../../css_classes.md:79
+msgid ""
+"Items within a flex box can also be aligned along the major axis or minor"
+" axis, dependant on the flex-direction. For example, using `sd-d-flex-"
+"column` and `sd-align-major-center` will center the items in the vertical"
+" direction."
+msgstr ""
+
+#: ../../css_classes.md:82
+msgid "`sd-align-major-start`"
+msgstr ""
+
+#: ../../css_classes.md:83
+msgid "`sd-align-major-end`"
+msgstr ""
+
+#: ../../css_classes.md:84
+msgid "`sd-align-major-center`"
+msgstr ""
+
+#: ../../css_classes.md:85
+msgid "`sd-align-major-spaced` (spaced to fill the full axis)"
+msgstr ""
+
+#: ../../css_classes.md:86
+msgid ""
+"`sd-align-major-justify` (spaced to fill the full axis, with the "
+"first/last item on the edges of the axis)"
+msgstr ""
+
+#: ../../css_classes.md:88
+msgid "`sd-align-minor-start`"
+msgstr ""
+
+#: ../../css_classes.md:89
+msgid "`sd-align-minor-end`"
+msgstr ""
+
+#: ../../css_classes.md:90
+msgid "`sd-align-minor-center`"
+msgstr ""
+
+#: ../../css_classes.md:92
+msgid ""
+"For more information, see [this guide to flexbox](https://css-"
+"tricks.com/snippets/css/a-guide-to-flexbox/)."
+msgstr ""
+
+#: ../../css_classes.md:94
+msgid "Sizing"
+msgstr ""
+
+#: ../../css_classes.md:96
+msgid "Size objects width/height by percentage:"
+msgstr ""
+
+#: ../../css_classes.md:98
+msgid "`sd-width-25`, `sd-height-25`"
+msgstr ""
+
+#: ../../css_classes.md:99
+msgid "`sd-width-50`, `sd-height-50`"
+msgstr ""
+
+#: ../../css_classes.md:100
+msgid "`sd-width-75`, `sd-height-75`"
+msgstr ""
+
+#: ../../css_classes.md:101
+msgid "`sd-width-100`, `sd-height-100`"
+msgstr ""
+
+#: ../../css_classes.md:102
+msgid "`sd-width-auto`, `sd-height-auto`"
+msgstr ""
+
+#: ../../css_classes.md:104
+msgid "Spacing"
+msgstr ""
+
+#: ../../css_classes.md:106
+msgid ""
+"Padding (`p`) and margins (`m`) can be controlled with these classes for;"
+" (`t`)op, (`r`)ight, (`b`)ottom, (`l`)eft, `x` (left and right), and `y` "
+"(top and bottom)."
+msgstr ""
+
+#: ../../css_classes.md:108
+msgid ""
+"Spacing are defined on a scale of 0 to 5, for example `sd-px-1` or `sd-"
+"mt-5`."
+msgstr ""
+
+#: ../../css_classes.md:110
+msgid ""
+"Note, for grids the special gutter classes `sd-g-{screen-size}-{spacing}`"
+" are used to set margins, or for only `x`/`y`; `sd-gx-{screen-"
+"size}-{spacing}`."
+msgstr ""
+
+#: ../../css_classes.md:112
+msgid "Colors"
+msgstr ""
+
+#: ../../css_classes.md:114
+msgid ""
+"Colors can be set using [CSS variable](./css_variables.md), they are "
+"defined for the semantic color names: `primary`, `secondary`, `success`, "
+"`warning`, `danger`, `info`, `light`, `dark`, and `muted`, and specific "
+"colors `black` and `white`."
+msgstr ""
+
+#: ../../css_classes.md:116
+msgid "`sd-bg-{name}`"
+msgstr ""
+
+#: ../../css_classes.md:117
+msgid "`sd-bg-text-{name}`"
+msgstr ""
+
+#: ../../css_classes.md:118
+msgid "`sd-text-{name}`"
+msgstr ""
+
+#: ../../css_classes.md:119
+msgid "`sd-outline-{name}`"
+msgstr ""
+
+#: ../../css_classes.md:121
+msgid "Additional transparent colouring:"
+msgstr ""
+
+#: ../../css_classes.md:123
+msgid "`sd-bg-transparent`"
+msgstr ""
+
+#: ../../css_classes.md:124
+msgid "`sd-outline-transparent`"
+msgstr ""
+
+#: ../../css_classes.md:125
+msgid "`sd-text-transparent`"
+msgstr ""
+
+#: ../../css_classes.md:127
+msgid "Borders"
+msgstr ""
+
+#: ../../css_classes.md:129
+msgid ""
+"Borders can be applied to elements of thickness 0 to 5, for all are a "
+"specific side:"
+msgstr ""
+
+#: ../../css_classes.md:131
+msgid "`sd-border-{thickness}`"
+msgstr ""
+
+#: ../../css_classes.md:132
+msgid "`sd-border-top-{thickness}`"
+msgstr ""
+
+#: ../../css_classes.md:133
+msgid "`sd-border-bottom-{thickness}`"
+msgstr ""
+
+#: ../../css_classes.md:134
+msgid "`sd-border-right-{thickness}`"
+msgstr ""
+
+#: ../../css_classes.md:135
+msgid "`sd-border-left-{thickness}`"
+msgstr ""
+
+#: ../../css_classes.md:144
+msgid "`sd-border-0`"
+msgstr ""
+
+#: ../../css_classes.md:150
+msgid "`sd-border-1`"
+msgstr ""
+
+#: ../../css_classes.md:156
+msgid "`sd-border-2`"
+msgstr ""
+
+#: ../../css_classes.md:162
+msgid "`sd-border-3`"
+msgstr ""
+
+#: ../../css_classes.md:168
+msgid "`sd-border-4`"
+msgstr ""
+
+#: ../../css_classes.md:174
+msgid "`sd-border-5`"
+msgstr ""
+
+#: ../../css_classes.md:178
+msgid "Border can be rounded by different amounts using:"
+msgstr ""
+
+#: ../../css_classes.md:180 ../../css_classes.md:194
+msgid "`sd-rounded-0`"
+msgstr ""
+
+#: ../../css_classes.md:181 ../../css_classes.md:200
+msgid "`sd-rounded-1`"
+msgstr ""
+
+#: ../../css_classes.md:182 ../../css_classes.md:206
+msgid "`sd-rounded-2`"
+msgstr ""
+
+#: ../../css_classes.md:183 ../../css_classes.md:212
+msgid "`sd-rounded-3`"
+msgstr ""
+
+#: ../../css_classes.md:184 ../../css_classes.md:218
+msgid "`sd-rounded-pill`"
+msgstr ""
+
+#: ../../css_classes.md:185 ../../css_classes.md:224
+msgid "`sd-rounded-circle`"
+msgstr ""
+
+#: ../../css_classes.md:228
+msgid "Shadows"
+msgstr ""
+
+#: ../../css_classes.md:230
+msgid ""
+"Shadows can be applied to box elements (the color of the shadow is "
+"defined using `--sd-color-shadow` CSS variable):"
+msgstr ""
+
+#: ../../css_classes.md:232 ../../css_classes.md:243
+msgid "`sd-shadow-none`"
+msgstr ""
+
+#: ../../css_classes.md:233 ../../css_classes.md:248
+msgid "`sd-shadow-sm`"
+msgstr ""
+
+#: ../../css_classes.md:234 ../../css_classes.md:253
+msgid "`sd-shadow-md`"
+msgstr ""
+
+#: ../../css_classes.md:235 ../../css_classes.md:258
+msgid "`sd-shadow-lg`"
+msgstr ""
+
+#: ../../css_classes.md:262
+msgid "Avatars"
+msgstr ""
+
+#: ../../css_classes.md:264
+msgid ""
+"Avatars can represent a user or a brand,with a logo or branded graphic "
+"([see Material Design "
+"imagery](https://material.io/design/communication/imagery.html"
+"#informational-imagery))."
+msgstr ""
+
+#: ../../css_classes.md:266
+msgid "These classes center an image, set their size and add a circular crop:"
+msgstr ""
+
+#: ../../css_classes.md:268
+msgid "`sd-avatar-xs`"
+msgstr ""
+
+#: ../../css_classes.md:269
+msgid "`sd-avatar-sm`"
+msgstr ""
+
+#: ../../css_classes.md:270
+msgid "`sd-avatar-md`"
+msgstr ""
+
+#: ../../css_classes.md:271
+msgid "`sd-avatar-lg`"
+msgstr ""
+
+#: ../../css_classes.md:272
+msgid "`sd-avatar-xl`"
+msgstr ""
+
+#: ../../css_classes.md:273
+msgid "`sd-avatar-inherit`"
+msgstr ""
+
+#: ../../css_classes.md:274
+msgid "`sd-avatar-initial`"
+msgstr ""
+
+#: ../../css_classes.md:279
+msgid "sd-avatar-xs"
+msgstr ""
+
+#: ../../css_classes.md:282
+msgid "sd-avatar-sm"
+msgstr ""
+
+#: ../../css_classes.md:285
+msgid "sd-avatar-md"
+msgstr ""
+
+#: ../../css_classes.md:288
+msgid "sd-avatar-lg"
+msgstr ""
+
+#: ../../css_classes.md:291
+msgid "sd-avatar-xl"
+msgstr ""
+
+#: ../../css_classes.md:296
+msgid "Load Animations"
+msgstr ""
+
+#: ../../css_classes.md:298
+msgid ""
+"Add CSS animations when loading elements using the `sd-animate-{name}` "
+"classes:"
+msgstr ""
+
+#: ../../css_classes.md:300
+msgid "`sd-animate-slide-from-left`"
+msgstr ""
+
+#: ../../css_classes.md:301
+msgid "`sd-animate-slide-from-right`"
+msgstr ""
+
+#: ../../css_classes.md:302
+msgid "`sd-animate-grow100`"
+msgstr ""
+
+#: ../../css_classes.md:303
+msgid "`sd-animate-grow50`"
+msgstr ""
+
+#: ../../css_classes.md:304
+msgid "`sd-animate-grow50-rot20`"
+msgstr ""
+
+#: ../../css_classes.md:306
+msgid ""
+"See [uxdesign.cc](https://uxdesign.cc/the-ultimate-guide-to-proper-use-"
+"of-animation-in-ux-10bd98614fa9) and "
+"[material.io](https://material.io/design/motion/understanding-motion.html"
+"#user-education) for good guides to animation."
+msgstr ""
+

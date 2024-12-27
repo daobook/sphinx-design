@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../tabs.md:3
+msgid "Tabs"
+msgstr ""
+
+#: ../../tabs.md:5
+msgid ""
+"Tabs organize and allow navigation between groups of content that are "
+"related and at the same level of hierarchy. Each tab should contain "
+"content that is distinct from other tabs in a set."
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label1"
+msgstr ""
+
+#: ../../tabs.md:12 ../../tabs.md:61 ../../tabs.md:78 ../../tabs.md:150
+#: ../../tabs.md:176 ../../tabs.md:197
+msgid "Content 1"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label2"
+msgstr ""
+
+#: ../../tabs.md:16 ../../tabs.md:67 ../../tabs.md:84 ../../tabs.md:156
+#: ../../tabs.md:182 ../../tabs.md:203 ../../tabs.md:226
+msgid "Content 2"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../tabs.md:32
+msgid ""
+"See the [Material Design](https://material.io/components/tabs) "
+"description for further details."
+msgstr ""
+
+#: ../../tabs.md:34
+msgid "Synchronised Tabs"
+msgstr ""
+
+#: ../../tabs.md:36
+msgid ""
+"The Selection of tab items can be synchronised across multiple tab-sets. "
+"For a `tab-item` to be synchronisable, add the `sync` option to the `tab-"
+"item` directive with a key unique to that set. Now when you select a tab "
+"in one set, tabs in other sets with the same key will be selected."
+msgstr ""
+
+#: ../../tabs.md:41
+msgid "Synchronisation requires that JavaScript is enabled."
+msgstr ""
+
+#: ../../tabs.md:45
+msgid ""
+"To synchronise tabs only across certain tab-sets, add the `:sync-group:` "
+"option to each `tab-set` directive with the same group name, such as "
+"`:sync-group: category`."
+msgstr ""
+
+#: ../../tabs.md:47
+msgid ""
+"You can also add an [HTML query "
+"string](https://en.wikipedia.org/wiki/Query_string) to the end of the "
+"page's URL, to automatically select a tab with a specific key across all "
+"tab-sets of the group, for example:"
+msgstr ""
+
+#: ../../tabs.md:50
+msgid ""
+"[`?category=key1#synchronised-tabs`](?category=key1#synchronised-"
+"tabs){.external}"
+msgstr ""
+
+#: ../../tabs.md:51
+msgid ""
+"[`?category=key2#synchronised-tabs`](?category=key2#synchronised-"
+"tabs){.external}"
+msgstr ""
+
+#: ../../tabs.md:100
+msgid "Tabbed code examples"
+msgstr ""
+
+#: ../../tabs.md:102
+msgid ""
+"The `tab-set-code` directive provides a shorthand for synced code "
+"examples. You can place any directives in a `tab-set-code` that produce a"
+" `literal_block` node with a `language` attribute, for example `code`, "
+"`code-block` and `literalinclude`. Tabs will be labelled and synchronised"
+" by the `language` attribute (in upper-case)."
+msgstr ""
+
+#: ../../tabs.md:107
+msgid ""
+"You can also add an [HTML query "
+"string](https://en.wikipedia.org/wiki/Query_string) to the end of the "
+"page's URL, to automatically select a tab with a specific code across all"
+" tab-sets of the group, for example:"
+msgstr ""
+
+#: ../../tabs.md:110
+msgid ""
+"[`?code=markdown#tabbed-code-examples`](?code=markdown#tabbed-code-"
+"examples){.external}"
+msgstr ""
+
+#: ../../tabs.md:111
+msgid ""
+"[`?code=rst#tabbed-code-examples`](?code=rst#tabbed-code-"
+"examples){.external}"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Markdown"
+msgstr ""
+
+#: ../../tabs.md
+msgid "RST"
+msgstr ""
+
+#: ../../tabs.md:135
+msgid "Tabs in other components"
+msgstr ""
+
+#: ../../tabs.md:137
+msgid ""
+"Tabs can be nested inside other components, such as inside "
+"[dropdowns](./dropdowns.md) or within [grid items](./grids.md)."
+msgstr ""
+
+#: ../../tabs.md
+msgid "Tabs in dropdown"
+msgstr ""
+
+#: ../../tabs.md:142
+msgid "Paragraph"
+msgstr ""
+
+#: ../../tabs.md:168
+msgid "Initial paragraph"
+msgstr ""
+
+#: ../../tabs.md:207
+msgid "Ending paragraph"
+msgstr ""
+
+#: ../../tabs.md:211
+msgid "Tab set, within tab set:"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label 1"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label 1a"
+msgstr ""
+
+#: ../../tabs.md:220
+msgid "Content 1a"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label 1b"
+msgstr ""
+
+#: ../../tabs.md:223
+msgid "Content 1b"
+msgstr ""
+
+#: ../../tabs.md
+msgid "Label 2"
+msgstr ""
+
+#: ../../tabs.md:229
+msgid "`tab-set` options"
+msgstr ""
+
+#: ../../tabs.md:231 ../../tabs.md:242
+msgid "sync-group"
+msgstr ""
+
+#: ../../tabs.md:232
+msgid "A group name for synchronised tab sets (default `tab`)."
+msgstr ""
+
+#: ../../tabs.md:234
+msgid "class"
+msgstr ""
+
+#: ../../tabs.md:235 ../../tabs.md:263
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../tabs.md:237
+msgid "`tab-set-code` options"
+msgstr ""
+
+#: ../../tabs.md:239
+msgid "no-sync"
+msgstr ""
+
+#: ../../tabs.md:240
+msgid "Disable synchronisation of tabs."
+msgstr ""
+
+#: ../../tabs.md:243
+msgid "A group name for synchronised tab sets (default `code`)."
+msgstr ""
+
+#: ../../tabs.md:245
+msgid "class-set"
+msgstr ""
+
+#: ../../tabs.md:246
+msgid "Additional CSS classes for the set container element."
+msgstr ""
+
+#: ../../tabs.md:248
+msgid "class-item"
+msgstr ""
+
+#: ../../tabs.md:249
+msgid "Additional CSS classes for the item container element."
+msgstr ""
+
+#: ../../tabs.md:251
+msgid "`tab-item` options"
+msgstr ""
+
+#: ../../tabs.md:253
+msgid "selected"
+msgstr ""
+
+#: ../../tabs.md:254
+msgid "a flag indicating whether the tab should be selected by default."
+msgstr ""
+
+#: ../../tabs.md:256
+msgid "sync"
+msgstr ""
+
+#: ../../tabs.md:257
+msgid "A key that is used to sync the selected tab across multiple tab-sets."
+msgstr ""
+
+#: ../../tabs.md:259
+msgid "name"
+msgstr ""
+
+#: ../../tabs.md:260
+msgid "Set a reference-able name for the dropdown container."
+msgstr ""
+
+#: ../../tabs.md:262
+msgid "class-container"
+msgstr ""
+
+#: ../../tabs.md:265
+msgid "class-label"
+msgstr ""
+
+#: ../../tabs.md:266
+msgid "Additional CSS classes for the label element."
+msgstr ""
+
+#: ../../tabs.md:268
+msgid "class-content"
+msgstr ""
+
+#: ../../tabs.md:269
+msgid "Additional CSS classes for the content element."
+msgstr ""
+

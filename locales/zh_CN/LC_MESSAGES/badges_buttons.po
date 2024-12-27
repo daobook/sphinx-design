@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../badges_buttons.md:1
+msgid "Badges, Buttons & Icons {octicon}`rocket`"
+msgstr ""
+
+#: ../../badges_buttons.md:5
+msgid "Badges"
+msgstr ""
+
+#: ../../badges_buttons.md:7
+msgid ""
+"Inline badges can be used as a labelling component. Badges are available "
+"in each semantic color, with filled and outline variants:"
+msgstr ""
+
+#: ../../badges_buttons.md:10
+msgid "{bdg}`plain badge`"
+msgstr ""
+
+#: ../../badges_buttons.md:11
+msgid "{bdg-primary}`primary`, {bdg-primary-line}`primary-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:12
+msgid "{bdg-secondary}`secondary`, {bdg-secondary-line}`secondary-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:13
+msgid "{bdg-success}`success`, {bdg-success-line}`success-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:14
+msgid "{bdg-info}`info`, {bdg-info-line}`info-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:15
+msgid "{bdg-warning}`warning`, {bdg-warning-line}`warning-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:16
+msgid "{bdg-danger}`danger`, {bdg-danger-line}`danger-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:17
+msgid "{bdg-light}`light`, {bdg-light-line}`light-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:18
+msgid "{bdg-muted}`muted`, {bdg-muted-line}`muted-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:19
+msgid "{bdg-dark}`dark`, {bdg-dark-line}`dark-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:20
+msgid "{bdg-white}`white`, {bdg-white-line}`white-line`"
+msgstr ""
+
+#: ../../badges_buttons.md:21
+msgid "{bdg-black}`black`, {bdg-black-line}`black-line`"
+msgstr ""
+
+#: ../../badges_buttons.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../badges_buttons.md:35
+msgid ""
+"`bdg-link-` and `bdg-ref-` variants are also available for use with links"
+" and references. The syntax is the same as for the `ref` role."
+msgstr ""
+
+#: ../../badges_buttons.md:38
+msgid "{bdg-link-primary}`https://example.com`"
+msgstr ""
+
+#: ../../badges_buttons.md:40
+msgid "{bdg-link-primary-line}`explicit title <https://example.com>`"
+msgstr ""
+
+#: ../../badges_buttons.md:42
+msgid "{bdg-ref-primary}`badges`"
+msgstr ""
+
+#: ../../badges_buttons.md:56
+msgid ""
+"See [Bootstrap "
+"badges](https://getbootstrap.com/docs/5.0/components/badge/) for more "
+"information, and related [Material Design "
+"chips](https://material.io/components/chip)."
+msgstr ""
+
+#: ../../badges_buttons.md:60
+msgid "Buttons"
+msgstr ""
+
+#: ../../badges_buttons.md:62
+msgid ""
+"Buttons allow users to navigate to external (`button-link`) / internal "
+"(`button-ref`) links with a single tap."
+msgstr ""
+
+#: ../../badges_buttons.md:64 ../../badges_buttons.md:71
+#: ../../badges_buttons.md:76 ../../badges_buttons.md:81
+#: ../../badges_buttons.md:131
+msgid "https://example.com"
+msgstr ""
+
+#: ../../badges_buttons.md:67
+msgid "Button text"
+msgstr ""
+
+#: ../../badges_buttons.md:86
+msgid "buttons"
+msgstr ""
+
+#: ../../badges_buttons.md:90
+msgid "Reference Button text"
+msgstr ""
+
+#: ../../badges_buttons.md:108
+msgid ""
+"Note that by default sphinx converts the content of references to raw "
+"text. For example `**Bold text**` with `ref-type` set to `ref` will be "
+"rendered without bold:"
+msgstr ""
+
+#: ../../badges_buttons.md:111 ../../badges_buttons.md:120
+msgid "Bold text"
+msgstr ""
+
+#: ../../badges_buttons.md:118
+msgid ""
+"However, if using [myst-parser](https://myst-parser.readthedocs.io/), you"
+" can set the `ref-type` to `myst`, and the content will be properly "
+"rendered:"
+msgstr ""
+
+#: ../../badges_buttons.md:127
+msgid ""
+"Use the `click-parent` option to make the button's parent container also "
+"clickable."
+msgstr ""
+
+#: ../../badges_buttons.md:129
+msgid "Card with an expanded button"
+msgstr ""
+
+#: ../../badges_buttons.md:139
+msgid ""
+"See the [Material Design](https://material.io/components/buttons) and "
+"[Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) "
+"descriptions for further details."
+msgstr ""
+
+#: ../../badges_buttons.md:141
+msgid "`button-link` and `button-ref` options"
+msgstr ""
+
+#: ../../badges_buttons.md:143
+msgid "ref-type (`button-ref` only)"
+msgstr ""
+
+#: ../../badges_buttons.md:144
+msgid "Type of reference to use; `any` (default), `ref`, `doc`, or `myst`"
+msgstr ""
+
+#: ../../badges_buttons.md:146
+msgid "color"
+msgstr ""
+
+#: ../../badges_buttons.md:147
+msgid ""
+"Set the color of the button (background and font). One of the semantic "
+"color names: `primary`, `secondary`, `success`, `danger`, `warning`, "
+"`info`, `light`, `dark`, `muted`."
+msgstr ""
+
+#: ../../badges_buttons.md:150
+msgid "outline"
+msgstr ""
+
+#: ../../badges_buttons.md:151
+msgid "Outline color variant"
+msgstr ""
+
+#: ../../badges_buttons.md:153
+msgid "align"
+msgstr ""
+
+#: ../../badges_buttons.md:154
+msgid "Align the button on the page; `left`, `right`, `center` or `justify`"
+msgstr ""
+
+#: ../../badges_buttons.md:156
+msgid "expand"
+msgstr ""
+
+#: ../../badges_buttons.md:157
+msgid "Expand to fit parent width"
+msgstr ""
+
+#: ../../badges_buttons.md:159
+msgid "click-parent"
+msgstr ""
+
+#: ../../badges_buttons.md:160
+msgid "Make parent container also clickable"
+msgstr ""
+
+#: ../../badges_buttons.md:162
+msgid "tooltip"
+msgstr ""
+
+#: ../../badges_buttons.md:163
+msgid "Add tooltip on hover"
+msgstr ""
+
+#: ../../badges_buttons.md:165
+msgid "shadow"
+msgstr ""
+
+#: ../../badges_buttons.md:166
+msgid "Add shadow CSS"
+msgstr ""
+
+#: ../../badges_buttons.md:168
+msgid "class"
+msgstr ""
+
+#: ../../badges_buttons.md:169
+msgid "Additional CSS classes"
+msgstr ""
+
+#: ../../badges_buttons.md:173
+msgid "Inline Icons"
+msgstr ""
+
+#: ../../badges_buttons.md:175
+msgid ""
+"Inline icon roles are available for the [GitHub "
+"octicon](https://primer.style/octicons/), [Google Material Design "
+"Icons](https://github.com/google/material-design-icons), or "
+"[FontAwesome](https://fontawesome.com/icons?d=gallery&m=free) libraries."
+msgstr ""
+
+#: ../../badges_buttons.md:177
+msgid ""
+"Octicon icons and Material icons are added as SVG's directly into the "
+"page with the `octicon` and `material-<flavor>` roles. See below for the "
+"different flavors of Material Design Icons."
+msgstr ""
+
+#: ../../badges_buttons.md:179
+msgid ""
+"By default the icon will be of height `1em` (i.e. the height of the "
+"font). A specific height can be set after a semi-colon (`;`) with units "
+"of either `px`, `em` or `rem`. Additional CSS classes can also be added "
+"to the SVG after a second semi-colon (`;`) delimiter."
+msgstr ""
+
+#: ../../badges_buttons.md:183
+msgid "Octicon Icons"
+msgstr ""
+
+#: ../../badges_buttons.md:185
+msgid "A coloured icon: {octicon}`report;1em;sd-text-info`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md
+msgid "All Octicons"
+msgstr ""
+
+#: ../../badges_buttons.md:203
+msgid "Material Design Icons"
+msgstr ""
+
+#: ../../badges_buttons.md:205
+msgid ""
+"Material Design icons come as several flavors. Each flavor represents a "
+"different role used in sphinx-design. These flavors are:"
+msgstr ""
+
+#: ../../badges_buttons.md:207
+msgid "`material-regular`"
+msgstr ""
+
+#: ../../badges_buttons.md:208
+msgid "`material-outlined`"
+msgstr ""
+
+#: ../../badges_buttons.md:209
+msgid "`material-round`"
+msgstr ""
+
+#: ../../badges_buttons.md:210
+msgid "`material-sharp`"
+msgstr ""
+
+#: ../../badges_buttons.md:211
+msgid "`material-twotone`"
+msgstr ""
+
+#: ../../badges_buttons.md:213
+msgid ""
+"Not all icons are available for each flavor, but most are. Instead of "
+"displaying the 10660+ icons here, you are encouraged to browse the "
+"available icons from the [Material Design Icons' "
+"showcase](https://fonts.google.com/icons) hosted by Google."
+msgstr ""
+
+#: ../../badges_buttons.md:215
+msgid "A regular icon: {material-regular}`data_exploration;2em`, some more text"
+msgstr ""
+
+#: ../../badges_buttons.md:216
+msgid ""
+"A coloured regular icon: {material-regular}`settings;3em;sd-text-"
+"success`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:217
+msgid ""
+"A coloured outline icon: {material-outlined}`settings;3em;sd-text-"
+"success`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:218
+msgid ""
+"A coloured sharp icon: {material-sharp}`settings;3em;sd-text-success`, "
+"some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:219
+msgid ""
+"A coloured round icon: {material-round}`settings;3em;sd-text-success`, "
+"some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:220
+msgid ""
+"A coloured two-tone icon: {material-twotone}`settings;3em;sd-text-"
+"success`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:231
+msgid "FontAwesome Icons"
+msgstr ""
+
+#: ../../badges_buttons.md:233
+msgid ""
+"FontAwesome icons are added via the Fontawesome CSS classes. If the theme"
+" you are using does not already include the FontAwesome CSS, it should be"
+" loaded in your configuration from a [font-awesome "
+"CDN](https://cdnjs.com/libraries/font-awesome), with the "
+"[html_css_files](https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-html_css_files) "
+"option, e.g.:"
+msgstr ""
+
+#: ../../badges_buttons.md:242
+msgid ""
+"Use either `fa` (deprecated in font-awesome v5), `fas`, `fab` or `far` "
+"for the role name. Note that not all regular style icons are free, `far` "
+"role only works with free ones."
+msgstr ""
+
+#: ../../badges_buttons.md:246
+msgid ""
+"Since the FontAwesome icons are fetched directly from their distributed "
+"CSS, specifying a height/size to the `fa*` roles is not supported. "
+"However, you can always add your custom CSS class that controls the "
+"`font-size` property."
+msgstr ""
+
+#: ../../badges_buttons.md:249
+msgid ""
+"If a height/size is supplied to a `fa*` role, then it will be interpreted"
+" as a CSS class. There can only be a maximum of 1 `;` in the `fa*` roles'"
+" arguments"
+msgstr ""
+
+#: ../../badges_buttons.md:268
+msgid "An icon {fas}`spinner;sd-text-primary`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:269
+msgid "An icon {fab}`github`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:270
+msgid "An icon {fab}`gitkraken;sd-text-success fa-xl`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:271
+msgid "An icon {fas}`skull;sd-text-danger`, some more text."
+msgstr ""
+
+#: ../../badges_buttons.md:273
+msgid ""
+"By default, icons will only be output in HTML formats. But if you want "
+"FontAwesome icons to be output on LaTeX, using the [fontawesome "
+"package](https://ctan.org/pkg/fontawesome), you can add to your "
+"configuration:"
+msgstr ""
+

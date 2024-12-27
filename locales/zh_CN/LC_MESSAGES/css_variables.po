@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../css_variables.md:1
+msgid "CSS Variables"
+msgstr ""
+
+#: ../../css_variables.md:3
+msgid ""
+"All colors used by sphinx-design are defined as [CSS "
+"variables](https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/Using_CSS_custom_properties). Therefore they can be "
+"overriden by adding a `.css` file in a `_static` folder in your projects "
+"source folder (see [the sphinx documentation](https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-html_css_files)):"
+msgstr ""
+
+#: ../../css_variables.md:11
+msgid ""
+"For colors, there are nine semantic colors that can be defined. For each "
+"of these colors you should define:"
+msgstr ""
+
+#: ../../css_variables.md:14
+msgid "`--sd-color-{name}` as the actual color"
+msgstr ""
+
+#: ../../css_variables.md:15
+#, python-format
+msgid ""
+"`--sd-color-{name}-highlight` as the color used when the component is "
+"highlighted (e.g. if hovering over a button). By default, this is a 15% "
+"darker version of the original color."
+msgstr ""
+
+#: ../../css_variables.md:17
+msgid ""
+"`--sd-color-{name}-text` as the color to use for text displayed on top of"
+" the color. By default, this is dark grey for light colors and white for "
+"dark colors."
+msgstr ""
+
+#: ../../css_variables.md:20
+msgid "The defaults are:"
+msgstr ""
+

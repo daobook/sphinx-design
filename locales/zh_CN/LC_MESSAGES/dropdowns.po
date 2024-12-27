@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Executable Book Project
+# This file is distributed under the same license as the Sphinx Design
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Design \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-27 17:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../dropdowns.md:3
+msgid "Dropdowns"
+msgstr ""
+
+#: ../../dropdowns.md:5
+msgid ""
+"Dropdowns can be used to toggle, usually *non-essential*, content and "
+"show it only when a user clicks on the header panel."
+msgstr ""
+
+#: ../../dropdowns.md:7
+msgid ""
+"The dropdown can have a title, as the directive argument, and the `open` "
+"option can be used to initialise the dropdown in the open state."
+msgstr ""
+
+#: ../../dropdowns.md:10 ../../dropdowns.md:14 ../../dropdowns.md:20
+#: ../../dropdowns.md:56 ../../dropdowns.md:62 ../../dropdowns.md:68
+#: ../../dropdowns.md:93 ../../dropdowns.md:104 ../../dropdowns.md:110
+msgid "Dropdown content"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown title"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Open dropdown"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../dropdowns.md:35
+msgid "Opening animations"
+msgstr ""
+
+#: ../../dropdowns.md:37
+msgid ""
+"Use `:animate: fade-in` or `:animate: fade-in-slide-down` options to "
+"animate the reveal of the hidden content."
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown `fade-in`"
+msgstr ""
+
+#: ../../dropdowns.md:43 ../../dropdowns.md:49 ../../dropdowns.md:83
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis arcu"
+" vitae odio gravida congue. Donec porttitor ac risus et condimentum. "
+"Phasellus bibendum ac risus a sollicitudin. Proin pulvinar risus ac "
+"mauris aliquet fermentum et varius nisi. Etiam sit amet metus ac ipsum "
+"placerat congue semper non diam. Nunc luctus tincidunt ipsum id eleifend."
+" Ut sed faucibus ipsum. Aliquam maximus dictum posuere. Nunc vitae libero"
+" nec enim tempus euismod. Aliquam sed lectus ac nisl sollicitudin "
+"ultricies id at neque. Aliquam fringilla odio vitae lorem ornare, sit "
+"amet scelerisque orci fringilla. Nam sed arcu dignissim, ultrices quam "
+"sit amet, commodo ipsum. Etiam quis nunc at ligula tincidunt eleifend."
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown `fade-in-slide-down`"
+msgstr ""
+
+#: ../../dropdowns.md:51
+msgid "More examples"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown with icon"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid ""
+"Dropdown with icon and very long title, *lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Donec auctor, nunc nec fermentum ultricies, "
+"nunc sapien ultricies nunc, nec ultricies sapien sapien nec sapien*"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Using option `:chevron: down-up`"
+msgstr ""
+
+#: ../../dropdowns.md:71
+msgid "Dropdowns in other components"
+msgstr ""
+
+#: ../../dropdowns.md:73
+msgid ""
+"Dropdowns can be nested inside other components, such as inside parent "
+"dropdowns or within [grid items](./grids.md)."
+msgstr ""
+
+#: ../../dropdowns.md:75
+msgid "Here is an admonition with a dropdown"
+msgstr ""
+
+#: ../../dropdowns.md:77
+msgid "Admonition content"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown inside admonition"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Parent dropdown title"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Child dropdown title"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown Column 1"
+msgstr ""
+
+#: ../../dropdowns.md
+msgid "Dropdown Column 2"
+msgstr ""
+
+#: ../../dropdowns.md:114
+msgid "`dropdown` options"
+msgstr ""
+
+#: ../../dropdowns.md:116
+msgid "open"
+msgstr ""
+
+#: ../../dropdowns.md:117
+msgid "Open the dropdown by default."
+msgstr ""
+
+#: ../../dropdowns.md:119
+msgid "color"
+msgstr ""
+
+#: ../../dropdowns.md:120
+msgid ""
+"Set the color of the dropdown header (background and font). One of the "
+"semantic color names: `primary`, `secondary`, `success`, `danger`, "
+"`warning`, `info`, `light`, `dark`, `muted`."
+msgstr ""
+
+#: ../../dropdowns.md:123
+msgid "icon"
+msgstr ""
+
+#: ../../dropdowns.md:124
+msgid "Set an [octicon icon](icons) to prefix the dropdown header."
+msgstr ""
+
+#: ../../dropdowns.md:126
+msgid "chevron"
+msgstr ""
+
+#: ../../dropdowns.md:127
+msgid "The open-close direction of the chevron. One of: `right-down`, `down-up`."
+msgstr ""
+
+#: ../../dropdowns.md:130
+msgid "animate"
+msgstr ""
+
+#: ../../dropdowns.md:131
+msgid "Animate the dropdown opening (`fade-in` or `fade-in-slide-down`)."
+msgstr ""
+
+#: ../../dropdowns.md:133
+msgid "margin"
+msgstr ""
+
+#: ../../dropdowns.md:134
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../dropdowns.md:137
+msgid "name"
+msgstr ""
+
+#: ../../dropdowns.md:138
+msgid "Set a reference-able name for the dropdown container."
+msgstr ""
+
+#: ../../dropdowns.md:140
+msgid "class-container"
+msgstr ""
+
+#: ../../dropdowns.md:141
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../dropdowns.md:143
+msgid "class-title"
+msgstr ""
+
+#: ../../dropdowns.md:144
+msgid "Additional CSS classes for the title element."
+msgstr ""
+
+#: ../../dropdowns.md:146
+msgid "class-body"
+msgstr ""
+
+#: ../../dropdowns.md:147
+msgid "Additional CSS classes for the body element."
+msgstr ""
+

@@ -127,3 +127,8 @@ myst_substitutions = {
     "Nam sed arcu dignissim, ultrices quam sit amet, commodo ipsum. "
     "Etiam quis nunc at ligula tincidunt eleifend."
 }
+
+# == 国际化输出 ==========================================================================
+language = 'zh_CN'
+locale_dirs = ['../locales/']  # po files will be created in this directory
+gettext_compact = False  # optional: avoid file concatenation in sub directories.
