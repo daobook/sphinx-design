@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../cards.md:3
 msgid "Cards"
-msgstr ""
+msgstr "卡片"
 
 #: ../../cards.md:5
 msgid ""
@@ -30,14 +30,15 @@ msgid ""
 "flexible and extensible content container, it can be formatted with "
 "components including headers and footers, titles and images."
 msgstr ""
+"卡片包含关于单个主题的内容和操作。卡片是灵活且可扩展的内容容器，可以使用包括标题、页脚、标题和图像等组件进行格式化。"
 
 #: ../../cards.md:9 ../../cards.md:31 ../../cards.md:55 ../../cards.md:62
 msgid "Card Title"
-msgstr ""
+msgstr "卡片标题"
 
 #: ../../cards.md:11 ../../cards.md:34 ../../cards.md:58 ../../cards.md:67
 msgid "Card content"
-msgstr ""
+msgstr "卡片内容"
 
 #: ../../cards.md:14
 msgid ""
@@ -45,10 +46,11 @@ msgid ""
 "[Bootstrap card](https://getbootstrap.com/docs/5.0/layout/grid/) "
 "descriptions for further details."
 msgstr ""
+"详情请参阅 [Material Design](https://material.io/components/cards) 和 [Bootstrap 卡片](https://getbootstrap.com/docs/5.0/layout/grid/) 描述。" 
 
 #: ../../cards.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../cards.md:28
 msgid ""
@@ -56,6 +58,7 @@ msgid ""
 "considered as a header, and all content after the final occurrence of "
 "three or more `+++` is considered as a footer:"
 msgstr ""
+"所有在首次出现三个或更多 `^^^` 之前的内容被视为标题，所有在最后出现三个或更多 `+++` 之后的内容被视为页脚："
 
 #: ../../cards.md:32 ../../cards.md:56 ../../cards.md:63 ../../cards.md:95
 #: ../../cards.md:106
@@ -72,6 +75,7 @@ msgid ""
 "When using cards in grids (see [`grid-item-card`](./grids.md)) footers "
 "can be aligned."
 msgstr ""
+"在网格中使用卡片时（参见 [`grid-item-card`](./grids.md)），页脚可以对齐。"
 
 #: ../../cards.md:65 ../../cards.md:227
 msgid "Longer"
@@ -79,7 +83,7 @@ msgstr ""
 
 #: ../../cards.md:72
 msgid "Card images"
-msgstr ""
+msgstr "卡片图片"
 
 #: ../../cards.md:74
 msgid ""
@@ -87,6 +91,7 @@ msgid ""
 "top/bottom of the card, with the `img-background`, `img-top`, `img-"
 "bottom` options:"
 msgstr ""
+"您还可以使用 `img-background`、`img-top`、`img-bottom` 选项将图像添加为卡片的背景或卡片的顶部/底部："
 
 #: ../../cards.md:82 ../../cards.md:91 ../../cards.md:102
 msgid "your desired alt text"
@@ -107,7 +112,7 @@ msgstr ""
 
 #: ../../cards.md:128
 msgid "Clickable cards"
-msgstr ""
+msgstr "可点击的卡片"
 
 #: ../../cards.md:130
 msgid ""
@@ -115,24 +120,26 @@ msgid ""
 "into a clickable link. Try hovering over then clicking on the cards "
 "below:"
 msgstr ""
+"通过使用 `link` 和 `link-type` 选项，您可以将整张卡片转变为可点击的链接。请尝试将鼠标悬停并点击下方的卡片："
 
 #: ../../cards.md:133
 msgid "Clickable Card (external)"
-msgstr ""
+msgstr "可点击的卡片 (外部)"
 
 #: ../../cards.md:137
 msgid "The entire card can be clicked to navigate to `https://example.com`."
-msgstr ""
+msgstr "整张卡片均可点击，以跳转至 `https://example.com`。"
 
 #: ../../cards.md:140
 msgid "Clickable Card (internal)"
-msgstr ""
+msgstr "可点击的卡片 (内部)"
 
 #: ../../cards.md:144
 msgid ""
 "The entire card can be clicked to navigate to the `cards-clickable` "
 "reference target."
 msgstr ""
+"整张卡片均可点击，以跳转至 `cards-clickable` 参考目标。"
 
 #: ../../cards.md:159
 msgid ""
@@ -141,6 +148,8 @@ msgid ""
 "option is provided, `[alt text](https://example.com)` ([alt "
 "text](https://example.com))."
 msgstr ""
+"上面创建的 **外部链接** 等效于使用 `<https://example.com>` （<https://example.com>），"
+"或者如果提供了 `link-alt` 选项，则等效于 `[替代文本](https://example.com)` （[替代文本](https://example.com)）。"
 
 #: ../../cards.md:165
 msgid ""
@@ -148,6 +157,7 @@ msgid ""
 "search engines to digest your web page, so it's best to provide link text"
 " via the `link-alt` option."
 msgstr ""
+"使用 URL 作为链接文本会使残障人士和搜索引擎更难理解您的网页内容，因此最好通过 `link-alt` 选项提供链接文本。"
 
 #: ../../cards.md:170
 msgid ""
@@ -156,6 +166,8 @@ msgid ""
 "option is provided, `` {ref}`alt text <cards-clickable>` `` ({ref}`alt "
 "text <cards-clickable>`)."
 msgstr ""
+"上面创建的 **内部链接** 等效于使用 `` {ref}`cards-clickable` ``（{ref}`cards-clickable`），"
+"或者如果提供了 `link-alt` 选项，则等效于 `` {ref}`替代文本 <cards-clickable>` `` （{ref}`替代文本 <cards-clickable>`）。"
 
 #: ../../cards.md:176
 msgid ""
@@ -164,16 +176,18 @@ msgid ""
 " the destination you specify, which overrides any other links inside the "
 "card."
 msgstr ""
+"您无法在可点击的卡片中添加额外的链接，无论是在卡片标题还是卡片正文中。整张卡片将成为一个指向您指定目标的单一链接，这会覆盖卡片内的任何其他链接。"
 
 #: ../../cards.md:183
 msgid "Aligning cards"
-msgstr ""
+msgstr "卡片对齐"
 
 #: ../../cards.md:185
 msgid ""
 "You can use the `text-align` option to align the text in a card, and also"
 " `auto` margins to align the cards horizontally."
 msgstr ""
+"您可以使用 `text-align` 选项来对齐卡片中的文本，同时也可以使用 `auto` 边距来实现卡片的水平对齐。"
 
 #: ../../cards.md:188
 msgid "Align Center"
@@ -189,7 +203,7 @@ msgstr ""
 
 #: ../../cards.md:214
 msgid "Card carousels"
-msgstr ""
+msgstr "卡片轮播"
 
 #: ../../cards.md:216
 msgid ""
@@ -197,12 +211,14 @@ msgid ""
 " width, scrollable cards. The argument should be a number between 1 and "
 "12, to denote the number of cards to display."
 msgstr ""
+"可以使用 `card-carousel` 指令创建一行固定宽度且可滚动的卡片。参数应为 1 到 12 之间的数字，用于指定显示的卡片数量。"
 
 #: ../../cards.md:219
 msgid ""
 "When scrolling a carousel, the scroll will snap to the start of the "
 "nearest card:"
 msgstr ""
+"当滚动轮播时，滚动会自动对齐到最近一张卡片的起始位置："
 
 #: ../../cards.md:223
 msgid "card 1"
@@ -234,7 +250,7 @@ msgstr ""
 
 #: ../../cards.md:255
 msgid "`card` options"
-msgstr ""
+msgstr "`card` 选项"
 
 #: ../../cards.md:257
 msgid "width"
@@ -242,7 +258,7 @@ msgstr ""
 
 #: ../../cards.md:258
 msgid "The width that the card should take up (in %): auto, 25%, 50%, 75%, 100%."
-msgstr ""
+msgstr "卡片应占据的宽度（以百分比表示）：自动、25%、50%、75%、100%。"
 
 #: ../../cards.md:260
 msgid "margin"
@@ -253,6 +269,7 @@ msgid ""
 "Outer margin of grid. One (all) or four (top bottom left right) values "
 "from: 0, 1, 2, 3, 4, 5, auto."
 msgstr ""
+"网格的外部边距。一个（所有）或四个（上、下、左、右）值：0、1、2、3、4、5、auto。"
 
 #: ../../cards.md:264
 msgid "text-align"
@@ -260,7 +277,7 @@ msgstr ""
 
 #: ../../cards.md:265
 msgid "Default horizontal text alignment: left, right, center or justify"
-msgstr ""
+msgstr "默认水平文本对齐：left, right, center 或 justify"
 
 #: ../../cards.md:267
 msgid "img-background"
@@ -271,6 +288,7 @@ msgid ""
 "A URI (relative file path or URL) to an image to be placed below the "
 "content."
 msgstr ""
+"URI（相对文件路径或 URL），指向放置在内容下方的图像。"
 
 #: ../../cards.md:270
 msgid "img-top"
@@ -281,6 +299,7 @@ msgid ""
 "A URI (relative file path or URL) to an image to be placed above the "
 "content."
 msgstr ""
+"URI（相对文件路径或 URL），指向放置在内容上方的图像。"
 
 #: ../../cards.md:273
 msgid "img-bottom"
@@ -292,7 +311,7 @@ msgstr ""
 
 #: ../../cards.md:277
 msgid "Alternative text for the image (that will be used by screen-readers)."
-msgstr ""
+msgstr "图像的替代文本（供屏幕阅读器使用）。"
 
 #: ../../cards.md:279
 msgid "link"
@@ -300,7 +319,7 @@ msgstr ""
 
 #: ../../cards.md:280
 msgid "Turn the entire card into a clickable link to an external/internal target."
-msgstr ""
+msgstr "将整张卡片转变为可点击的链接，指向外部或内部目标。"
 
 #: ../../cards.md:282
 msgid "link-type"
@@ -308,7 +327,7 @@ msgstr ""
 
 #: ../../cards.md:283
 msgid "Type of link: `url` (default), `ref`, `doc`, `any`."
-msgstr ""
+msgstr "链接类型：`url`（默认）、`ref`、`doc`、`any`。"
 
 #: ../../cards.md:285
 msgid "link-alt"
@@ -316,7 +335,7 @@ msgstr ""
 
 #: ../../cards.md:286
 msgid "Alternative text for the link (that will be used by screen-readers)."
-msgstr ""
+msgstr "链接的替代文本（将被屏幕阅读器使用）。"
 
 #: ../../cards.md:288
 msgid "shadow"
@@ -324,7 +343,7 @@ msgstr ""
 
 #: ../../cards.md:289
 msgid "The size of the shadow below the card: `none`, `sm` (default), `md`, `lg`."
-msgstr ""
+msgstr "卡片下方阴影的大小：`none`（无阴影），`sm` （小，默认值），`md` （中），`lg` （大）。"
 
 #: ../../cards.md:291
 msgid "class-card"
@@ -332,7 +351,7 @@ msgstr ""
 
 #: ../../cards.md:292
 msgid "Additional CSS classes for the card container element."
-msgstr ""
+msgstr "用于卡片容器元素的额外 CSS 类。"
 
 #: ../../cards.md:294
 msgid "class-header"
@@ -340,7 +359,7 @@ msgstr ""
 
 #: ../../cards.md:295
 msgid "Additional CSS classes for the header element."
-msgstr ""
+msgstr "用于 header 元素的额外 CSS 类。"
 
 #: ../../cards.md:297
 msgid "class-body"
@@ -348,7 +367,7 @@ msgstr ""
 
 #: ../../cards.md:298
 msgid "Additional CSS classes for the body element."
-msgstr ""
+msgstr "用于 body 元素的额外CSS类。"
 
 #: ../../cards.md:300
 msgid "class-title"
@@ -356,7 +375,7 @@ msgstr ""
 
 #: ../../cards.md:301
 msgid "Additional CSS classes for the title element."
-msgstr ""
+msgstr "用于 title 元素的额外CSS类。"
 
 #: ../../cards.md:303
 msgid "class-footer"
@@ -364,7 +383,7 @@ msgstr ""
 
 #: ../../cards.md:304
 msgid "Additional CSS classes for the footer element."
-msgstr ""
+msgstr "用于页脚元素的额外CSS类。"
 
 #: ../../cards.md:306
 msgid "class-img-top"
@@ -372,7 +391,7 @@ msgstr ""
 
 #: ../../cards.md:307
 msgid "Additional CSS classes for the top image (if present)."
-msgstr ""
+msgstr "用于顶部图片（如果存在）的额外CSS类。"
 
 #: ../../cards.md:309
 msgid "class-img-bottom"
@@ -380,5 +399,5 @@ msgstr ""
 
 #: ../../cards.md:310
 msgid "Additional CSS classes for the bottom image (if present)."
-msgstr ""
+msgstr "用于底部图片（如果存在）的额外CSS类。"
 

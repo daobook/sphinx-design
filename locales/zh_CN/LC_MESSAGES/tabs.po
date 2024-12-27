@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../tabs.md:3
 msgid "Tabs"
-msgstr ""
+msgstr "选项卡"
 
 #: ../../tabs.md:5
 msgid ""
@@ -30,6 +30,7 @@ msgid ""
 "related and at the same level of hierarchy. Each tab should contain "
 "content that is distinct from other tabs in a set."
 msgstr ""
+"选项卡用于组织和导航同一层级的相关内容组。每个选项卡应包含与同组中其他选项卡不同的内容。"
 
 #: ../../tabs.md
 msgid "Label1"
@@ -51,17 +52,18 @@ msgstr ""
 
 #: ../../tabs.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../tabs.md:32
 msgid ""
 "See the [Material Design](https://material.io/components/tabs) "
 "description for further details."
 msgstr ""
+"更多详情请参阅[Material Design](https://material.io/components/tabs)说明。"
 
 #: ../../tabs.md:34
 msgid "Synchronised Tabs"
-msgstr ""
+msgstr "同步选项卡"
 
 #: ../../tabs.md:36
 msgid ""
@@ -70,10 +72,13 @@ msgid ""
 "item` directive with a key unique to that set. Now when you select a tab "
 "in one set, tabs in other sets with the same key will be selected."
 msgstr ""
+"选项卡的选择可以在多个选项卡组之间同步。"
+"要使 `tab-item` 可同步，请在 `tab-item` 指令中添加 `sync` 选项，并为其设置唯一的键值。"
+"现在，当您在一个组中选择一个选项卡时，具有相同键值的其他组中的选项卡也将被选中。"
 
 #: ../../tabs.md:41
 msgid "Synchronisation requires that JavaScript is enabled."
-msgstr ""
+msgstr "同步功能需要启用JavaScript。"
 
 #: ../../tabs.md:45
 msgid ""
@@ -81,6 +86,8 @@ msgid ""
 "option to each `tab-set` directive with the same group name, such as "
 "`:sync-group: category`."
 msgstr ""
+"若仅需在特定选项卡组之间同步，"
+"请在每个`tab-set`指令中添加`:sync-group:`选项，并为它们设置相同的组名，例如`:sync-group: category`。"
 
 #: ../../tabs.md:47
 msgid ""
@@ -89,6 +96,8 @@ msgid ""
 "page's URL, to automatically select a tab with a specific key across all "
 "tab-sets of the group, for example:"
 msgstr ""
+"您还可以在页面URL的末尾添加[HTML查询字符串](https://en.wikipedia.org/wiki/Query_string)，"
+"以自动选择具有特定键值的选项卡，该操作将应用于组中的所有选项卡组，例如："
 
 #: ../../tabs.md:50
 msgid ""
@@ -104,7 +113,7 @@ msgstr ""
 
 #: ../../tabs.md:100
 msgid "Tabbed code examples"
-msgstr ""
+msgstr "选项卡式代码示例"
 
 #: ../../tabs.md:102
 msgid ""
@@ -114,6 +123,9 @@ msgid ""
 "`code-block` and `literalinclude`. Tabs will be labelled and synchronised"
 " by the `language` attribute (in upper-case)."
 msgstr ""
+"`tab-set-code`指令为同步代码示例提供了一种简写方式。"
+"您可以在`tab-set-code`中放置任何生成带有`language`属性的`literal_block`节点的指令，例如`code`、`code-block`和`literalinclude`。"
+"选项卡将根据`language`属性（大写形式）进行标记和同步。"
 
 #: ../../tabs.md:107
 msgid ""
@@ -122,6 +134,8 @@ msgid ""
 "page's URL, to automatically select a tab with a specific code across all"
 " tab-sets of the group, for example:"
 msgstr ""
+"您还可以在页面URL的末尾添加[HTML查询字符串](https://en.wikipedia.org/wiki/Query_string)，"
+"以自动选择具有特定代码的选项卡，该操作将应用于组中的所有选项卡组，例如："
 
 #: ../../tabs.md:110
 msgid ""
@@ -145,33 +159,34 @@ msgstr ""
 
 #: ../../tabs.md:135
 msgid "Tabs in other components"
-msgstr ""
+msgstr "其他组件中的选项卡"
 
 #: ../../tabs.md:137
 msgid ""
 "Tabs can be nested inside other components, such as inside "
 "[dropdowns](./dropdowns.md) or within [grid items](./grids.md)."
 msgstr ""
+"选项卡可以嵌套在其他组件内，例如嵌套在[下拉菜单](./dropdowns.md)中或[网格项](./grids.md)内。"
 
 #: ../../tabs.md
 msgid "Tabs in dropdown"
-msgstr ""
+msgstr "下拉菜单中的选项卡"
 
 #: ../../tabs.md:142
 msgid "Paragraph"
-msgstr ""
+msgstr "段落"
 
 #: ../../tabs.md:168
 msgid "Initial paragraph"
-msgstr ""
+msgstr "初始段落"
 
 #: ../../tabs.md:207
 msgid "Ending paragraph"
-msgstr ""
+msgstr "结束段落"
 
 #: ../../tabs.md:211
 msgid "Tab set, within tab set:"
-msgstr ""
+msgstr "选项卡组中的选项卡组："
 
 #: ../../tabs.md
 msgid "Label 1"
@@ -199,7 +214,7 @@ msgstr ""
 
 #: ../../tabs.md:229
 msgid "`tab-set` options"
-msgstr ""
+msgstr "`tab-set` 选项"
 
 #: ../../tabs.md:231 ../../tabs.md:242
 msgid "sync-group"
@@ -207,7 +222,7 @@ msgstr ""
 
 #: ../../tabs.md:232
 msgid "A group name for synchronised tab sets (default `tab`)."
-msgstr ""
+msgstr "用于同步选项卡组的组名（默认为`tab`）。"
 
 #: ../../tabs.md:234
 msgid "class"
@@ -215,7 +230,7 @@ msgstr ""
 
 #: ../../tabs.md:235 ../../tabs.md:263
 msgid "Additional CSS classes for the container element."
-msgstr ""
+msgstr "用于容器元素的额外CSS类。"
 
 #: ../../tabs.md:237
 msgid "`tab-set-code` options"
@@ -227,11 +242,11 @@ msgstr ""
 
 #: ../../tabs.md:240
 msgid "Disable synchronisation of tabs."
-msgstr ""
+msgstr "禁用选项卡的同步功能。"
 
 #: ../../tabs.md:243
 msgid "A group name for synchronised tab sets (default `code`)."
-msgstr ""
+msgstr "用于同步选项卡组的组名（默认为`code`）。"
 
 #: ../../tabs.md:245
 msgid "class-set"
@@ -239,7 +254,7 @@ msgstr ""
 
 #: ../../tabs.md:246
 msgid "Additional CSS classes for the set container element."
-msgstr ""
+msgstr "用于集合容器元素的额外CSS类。"
 
 #: ../../tabs.md:248
 msgid "class-item"
@@ -247,11 +262,11 @@ msgstr ""
 
 #: ../../tabs.md:249
 msgid "Additional CSS classes for the item container element."
-msgstr ""
+msgstr "用于项目容器元素的额外CSS类。"
 
 #: ../../tabs.md:251
 msgid "`tab-item` options"
-msgstr ""
+msgstr "`tab-item` 选项"
 
 #: ../../tabs.md:253
 msgid "selected"
@@ -259,7 +274,7 @@ msgstr ""
 
 #: ../../tabs.md:254
 msgid "a flag indicating whether the tab should be selected by default."
-msgstr ""
+msgstr "标志，指示选项卡是否应默认被选中。"
 
 #: ../../tabs.md:256
 msgid "sync"
@@ -267,7 +282,7 @@ msgstr ""
 
 #: ../../tabs.md:257
 msgid "A key that is used to sync the selected tab across multiple tab-sets."
-msgstr ""
+msgstr "用于在多个选项卡组之间同步所选选项卡的键值。"
 
 #: ../../tabs.md:259
 msgid "name"
@@ -275,7 +290,7 @@ msgstr ""
 
 #: ../../tabs.md:260
 msgid "Set a reference-able name for the dropdown container."
-msgstr ""
+msgstr "为下拉菜单容器设置可引用的名称。"
 
 #: ../../tabs.md:262
 msgid "class-container"
@@ -287,7 +302,7 @@ msgstr ""
 
 #: ../../tabs.md:266
 msgid "Additional CSS classes for the label element."
-msgstr ""
+msgstr "用于标签元素的额外CSS类。"
 
 #: ../../tabs.md:268
 msgid "class-content"
@@ -295,5 +310,5 @@ msgstr ""
 
 #: ../../tabs.md:269
 msgid "Additional CSS classes for the content element."
-msgstr ""
+msgstr "用于内容元素的额外CSS类。"
 

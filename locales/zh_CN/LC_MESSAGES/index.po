@@ -81,27 +81,27 @@ msgstr "所有 CSS 类都添加了前缀，以避免与其他框架发生冲突�
 
 #: ../../index.md:48
 msgid "Works without JavaScript"
-msgstr ""
+msgstr "无需 JavaScript 即可运行"
 
 #: ../../index.md:49
 msgid "JavaScript is not required for any \"essential\" functionality."
-msgstr ""
+msgstr "任何‘核心’功能都不需要 JavaScript。"
 
 #: ../../index.md:51
 msgid "Configurable"
-msgstr ""
+msgstr "可配置的"
 
 #: ../../index.md:52
 msgid "All colors can be configured using CSS variables."
-msgstr ""
+msgstr "所有颜色都可以通过 CSS 变量进行配置。"
 
 #: ../../index.md:54
 msgid "Supports non-HTML output formats"
-msgstr ""
+msgstr "支持非 HTML 输出格式"
 
 #: ../../index.md:55
 msgid "Components degrade gracefully for non-HTML formats."
-msgstr ""
+msgstr "组件在非 HTML 格式中能够优雅降级。"
 
 #: ../../index.md:107
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../index.md:111
 msgid "Screen size adaptable grid layouts."
-msgstr ""
+msgstr "适应屏幕尺寸的网格布局。"
 
 #: ../../index.md:114
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../index.md:118
 msgid "Flexible and extensible content containers."
-msgstr ""
+msgstr "灵活且可扩展的内容容器。"
 
 #: ../../index.md:121
 msgid ""
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../index.md:125
 msgid "Hide content in expandable containers."
-msgstr ""
+msgstr "将内容隐藏在可展开的容器中。"
 
 #: ../../index.md:128
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../index.md:132
 msgid "Synchronisable, tabbed content sets."
-msgstr ""
+msgstr "可同步的标签式内容集。"
 
 #: ../../index.md:135
 msgid ""
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../index.md:139
 msgid "Roles and directives for {bdg-primary}`badges` and other components."
-msgstr ""
+msgstr "用于 {bdg-primary}`badges` 和其他组件的角色和指令。"
 
 #: ../../index.md:142
 msgid ""
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../index.md:146
 msgid "Change the default colors and other CSS."
-msgstr ""
+msgstr "更改默认颜色和其他 CSS 样式。"
 
 #: ../../index.md:152
 msgid ""
@@ -204,4 +204,5 @@ msgid ""
 "(v5), [Material Design](https://material.io) and [Material-UI](https"
 "://material-ui.com/) design frameworks."
 msgstr ""
-
+"创作灵感来源于 [Bootstrap](https://getbootstrap.com/)（v5）、[Material Design](https://material.io) 和 [Material-UI](https"
+"://material-ui.com/) 设计框架。"

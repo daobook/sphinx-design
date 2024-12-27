@@ -22,17 +22,18 @@ msgstr ""
 
 #: ../../badges_buttons.md:1
 msgid "Badges, Buttons & Icons {octicon}`rocket`"
-msgstr ""
+msgstr "徽章、按钮与图标 {octicon}`rocket`"
 
 #: ../../badges_buttons.md:5
 msgid "Badges"
-msgstr ""
+msgstr "徽章"
 
 #: ../../badges_buttons.md:7
 msgid ""
 "Inline badges can be used as a labelling component. Badges are available "
 "in each semantic color, with filled and outline variants:"
 msgstr ""
+"内联徽章可用作标签组件。徽章提供每种语义颜色，并有填充和轮廓两种变体："
 
 #: ../../badges_buttons.md:10
 msgid "{bdg}`plain badge`"
@@ -84,13 +85,14 @@ msgstr ""
 
 #: ../../badges_buttons.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../badges_buttons.md:35
 msgid ""
 "`bdg-link-` and `bdg-ref-` variants are also available for use with links"
 " and references. The syntax is the same as for the `ref` role."
 msgstr ""
+"`bdg-link-` 和 `bdg-ref-` 变体也可用于链接和引用。其语法与 `ref` 角色相同。"
 
 #: ../../badges_buttons.md:38
 msgid "{bdg-link-primary}`https://example.com`"
@@ -111,16 +113,19 @@ msgid ""
 "information, and related [Material Design "
 "chips](https://material.io/components/chip)."
 msgstr ""
+"更多信息请参阅[Bootstrap徽章](https://getbootstrap.com/docs/5.0/components/badge/)，"
+"以及相关的[Material Design chip](https://material.io/components/chip)。"
 
 #: ../../badges_buttons.md:60
 msgid "Buttons"
-msgstr ""
+msgstr "按钮"
 
 #: ../../badges_buttons.md:62
 msgid ""
 "Buttons allow users to navigate to external (`button-link`) / internal "
 "(`button-ref`) links with a single tap."
 msgstr ""
+"按钮允许用户通过一次点击导航到外部（`button-link`）或内部（`button-ref`）链接。"
 
 #: ../../badges_buttons.md:64 ../../badges_buttons.md:71
 #: ../../badges_buttons.md:76 ../../badges_buttons.md:81
@@ -130,7 +135,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:67
 msgid "Button text"
-msgstr ""
+msgstr "按钮文本"
 
 #: ../../badges_buttons.md:86
 msgid "buttons"
@@ -146,6 +151,8 @@ msgid ""
 "text. For example `**Bold text**` with `ref-type` set to `ref` will be "
 "rendered without bold:"
 msgstr ""
+"请注意，默认情况下，Sphinx 会将引用的内容转换为纯文本。"
+"例如，`**Bold text**` 在 `ref-type` 设置为 `ref` 时，将不会以粗体呈现："
 
 #: ../../badges_buttons.md:111 ../../badges_buttons.md:120
 msgid "Bold text"
@@ -157,16 +164,18 @@ msgid ""
 " can set the `ref-type` to `myst`, and the content will be properly "
 "rendered:"
 msgstr ""
+"然而，如果使用[myst-parser](https://myst-parser.readthedocs.io/)，您可以将 `ref-type` 设置为 `myst`，内容将正确呈现："
 
 #: ../../badges_buttons.md:127
 msgid ""
 "Use the `click-parent` option to make the button's parent container also "
 "clickable."
 msgstr ""
+"使用 `click-parent` 选项使按钮的父容器也可点击。"
 
 #: ../../badges_buttons.md:129
 msgid "Card with an expanded button"
-msgstr ""
+msgstr "带有扩展按钮的卡片"
 
 #: ../../badges_buttons.md:139
 msgid ""
@@ -174,18 +183,20 @@ msgid ""
 "[Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) "
 "descriptions for further details."
 msgstr ""
+"请参阅 [Material Design](https://material.io/components/buttons) "
+"和 [Bootstrap](https://getbootstrap.com/docs/5.0/components/buttons/) 的描述以获取更多详细信息。"
 
 #: ../../badges_buttons.md:141
 msgid "`button-link` and `button-ref` options"
-msgstr ""
+msgstr "`button-link` 和 `button-ref` 选项"
 
 #: ../../badges_buttons.md:143
 msgid "ref-type (`button-ref` only)"
-msgstr ""
+msgstr "ref-type（仅限 `button-ref`）"
 
 #: ../../badges_buttons.md:144
 msgid "Type of reference to use; `any` (default), `ref`, `doc`, or `myst`"
-msgstr ""
+msgstr "使用的引用类型；可选值为 `any`（默认）、`ref`、`doc` 或 `myst`"
 
 #: ../../badges_buttons.md:146
 msgid "color"
@@ -197,6 +208,8 @@ msgid ""
 "color names: `primary`, `secondary`, `success`, `danger`, `warning`, "
 "`info`, `light`, `dark`, `muted`."
 msgstr ""
+"设置按钮的颜色（背景和字体）。"
+"可选用以下语义化颜色名称之一：`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light`、`dark`、`muted`。"
 
 #: ../../badges_buttons.md:150
 msgid "outline"
@@ -204,7 +217,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:151
 msgid "Outline color variant"
-msgstr ""
+msgstr "轮廓颜色变体"
 
 #: ../../badges_buttons.md:153
 msgid "align"
@@ -212,7 +225,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:154
 msgid "Align the button on the page; `left`, `right`, `center` or `justify`"
-msgstr ""
+msgstr "设置按钮在页面上的对齐方式；可选值为 `left`（左对齐）、`right`（右对齐）、`center`（居中对齐）或 `justify`（两端对齐）。"
 
 #: ../../badges_buttons.md:156
 msgid "expand"
@@ -220,7 +233,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:157
 msgid "Expand to fit parent width"
-msgstr ""
+msgstr "扩展以适应父容器宽度"
 
 #: ../../badges_buttons.md:159
 msgid "click-parent"
@@ -228,7 +241,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:160
 msgid "Make parent container also clickable"
-msgstr ""
+msgstr "使父容器也可点击"
 
 #: ../../badges_buttons.md:162
 msgid "tooltip"
@@ -236,7 +249,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:163
 msgid "Add tooltip on hover"
-msgstr ""
+msgstr "悬停时添加工具提示"
 
 #: ../../badges_buttons.md:165
 msgid "shadow"
@@ -244,7 +257,7 @@ msgstr ""
 
 #: ../../badges_buttons.md:166
 msgid "Add shadow CSS"
-msgstr ""
+msgstr "添加阴影 CSS"
 
 #: ../../badges_buttons.md:168
 msgid "class"
@@ -252,11 +265,11 @@ msgstr ""
 
 #: ../../badges_buttons.md:169
 msgid "Additional CSS classes"
-msgstr ""
+msgstr "额外的 CSS 类"
 
 #: ../../badges_buttons.md:173
 msgid "Inline Icons"
-msgstr ""
+msgstr "内联图标"
 
 #: ../../badges_buttons.md:175
 msgid ""
@@ -265,6 +278,9 @@ msgid ""
 "Icons](https://github.com/google/material-design-icons), or "
 "[FontAwesome](https://fontawesome.com/icons?d=gallery&m=free) libraries."
 msgstr ""
+"内联图标角色适用于 [GitHub octicon](https://primer.style/octicons/)、"
+"[Google Material Design Icons](https://github.com/google/material-design-icons) 或 "
+"[FontAwesome](https://fontawesome.com/icons?d=gallery&m=free) 库。"
 
 #: ../../badges_buttons.md:177
 msgid ""
@@ -272,6 +288,8 @@ msgid ""
 "page with the `octicon` and `material-<flavor>` roles. See below for the "
 "different flavors of Material Design Icons."
 msgstr ""
+"Octicon 图标和 Material 图标通过 `octicon` 和 `material-<flavor>` "
+"角色以 SVG 格式直接嵌入页面。以下是 Material Design 图标的不同风格。"
 
 #: ../../badges_buttons.md:179
 msgid ""
@@ -280,28 +298,32 @@ msgid ""
 "of either `px`, `em` or `rem`. Additional CSS classes can also be added "
 "to the SVG after a second semi-colon (`;`) delimiter."
 msgstr ""
+"默认情况下，图标的高度为 `1em` （即字体的高度）。"
+"可以在分号 (`;`) 后设置特定高度，单位可以是 `px`、`em` 或 `rem`。"
+"还可以在第二个分号 (`;`) 分隔符后为 SVG 添加额外的 CSS 类。"
 
 #: ../../badges_buttons.md:183
 msgid "Octicon Icons"
-msgstr ""
+msgstr "Octicon 图标"
 
 #: ../../badges_buttons.md:185
 msgid "A coloured icon: {octicon}`report;1em;sd-text-info`, some more text."
-msgstr ""
+msgstr "带颜色的图标：{octicon}`report;1em;sd-text-info`，以及一些更多文本。"
 
 #: ../../badges_buttons.md
 msgid "All Octicons"
-msgstr ""
+msgstr "全部 Octicon"
 
 #: ../../badges_buttons.md:203
 msgid "Material Design Icons"
-msgstr ""
+msgstr "Material Design 图标"
 
 #: ../../badges_buttons.md:205
 msgid ""
 "Material Design icons come as several flavors. Each flavor represents a "
 "different role used in sphinx-design. These flavors are:"
 msgstr ""
+"Material Design 图标提供了多种风格。每种风格代表 sphinx-design 中使用的不同角色。这些风格包括："
 
 #: ../../badges_buttons.md:207
 msgid "`material-regular`"
@@ -330,44 +352,51 @@ msgid ""
 "available icons from the [Material Design Icons' "
 "showcase](https://fonts.google.com/icons) hosted by Google."
 msgstr ""
+"并非所有图标都适用于每种风格，但大多数都可以。这里不展示全部 10660 多个图标，"
+"建议您浏览由 Google 托管的 [Material Design Icons 展示页面](https://fonts.google.com/icons) 来查看可用图标。"
 
 #: ../../badges_buttons.md:215
 msgid "A regular icon: {material-regular}`data_exploration;2em`, some more text"
-msgstr ""
+msgstr "常规图标：{material-regular}`data_exploration;2em`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:216
 msgid ""
 "A coloured regular icon: {material-regular}`settings;3em;sd-text-"
 "success`, some more text."
 msgstr ""
+"带颜色的常规图标：{material-regular}`settings;3em;sd-text-success`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:217
 msgid ""
 "A coloured outline icon: {material-outlined}`settings;3em;sd-text-"
 "success`, some more text."
 msgstr ""
+"带颜色的轮廓图标：{material-outlined}`settings;3em;sd-text-success`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:218
 msgid ""
 "A coloured sharp icon: {material-sharp}`settings;3em;sd-text-success`, "
 "some more text."
 msgstr ""
+"带颜色的锐利图标：{material-sharp}`settings;3em;sd-text-success`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:219
 msgid ""
 "A coloured round icon: {material-round}`settings;3em;sd-text-success`, "
 "some more text."
 msgstr ""
+"带颜色的圆润图标：{material-round}`settings;3em;sd-text-success`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:220
 msgid ""
 "A coloured two-tone icon: {material-twotone}`settings;3em;sd-text-"
 "success`, some more text."
 msgstr ""
+"带颜色的双色调图标：{material-twotone}`settings;3em;sd-text-success`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:231
 msgid "FontAwesome Icons"
-msgstr ""
+msgstr "FontAwesome 图标"
 
 #: ../../badges_buttons.md:233
 msgid ""
@@ -379,6 +408,10 @@ msgid ""
 "doc.org/en/master/usage/configuration.html#confval-html_css_files) "
 "option, e.g.:"
 msgstr ""
+"FontAwesome 图标通过 FontAwesome 的 CSS 类添加。"
+"如果您使用的主题尚未包含 FontAwesome 的 CSS，可以通过 "
+"[html_css_files](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_css_files) "
+"配置选项从 [font-awesome CDN](https://cdnjs.com/libraries/font-awesome) 加载，例如："
 
 #: ../../badges_buttons.md:242
 msgid ""
@@ -386,6 +419,7 @@ msgid ""
 "for the role name. Note that not all regular style icons are free, `far` "
 "role only works with free ones."
 msgstr ""
+"角色名称可以使用 `fa` （在 font-awesome v5 中已弃用）、`fas`、`fab` 或 `far`。请注意，并非所有常规样式的图标都是免费的，`far` 角色仅适用于免费图标。"
 
 #: ../../badges_buttons.md:246
 msgid ""
@@ -394,6 +428,7 @@ msgid ""
 "However, you can always add your custom CSS class that controls the "
 "`font-size` property."
 msgstr ""
+"由于 FontAwesome 图标是直接从其分发的 CSS 中获取的，因此不支持为 `fa*` 角色指定高度/大小。不过，您可以随时添加自定义的 CSS 类来控制 `font-size` 属性。"
 
 #: ../../badges_buttons.md:249
 msgid ""
@@ -401,14 +436,15 @@ msgid ""
 " as a CSS class. There can only be a maximum of 1 `;` in the `fa*` roles'"
 " arguments"
 msgstr ""
+"如果为 `fa*` 角色提供了高度/大小，它将被解释为 CSS 类。`fa*` 角色的参数中最多只能包含 1 个 `;`。"
 
 #: ../../badges_buttons.md:268
 msgid "An icon {fas}`spinner;sd-text-primary`, some more text."
-msgstr ""
+msgstr "图标 {fas}`spinner;sd-text-primary`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:269
 msgid "An icon {fab}`github`, some more text."
-msgstr ""
+msgstr "图标 {fab}`github`，以及一些更多文本。"
 
 #: ../../badges_buttons.md:270
 msgid "An icon {fab}`gitkraken;sd-text-success fa-xl`, some more text."
@@ -425,4 +461,4 @@ msgid ""
 "package](https://ctan.org/pkg/fontawesome), you can add to your "
 "configuration:"
 msgstr ""
-
+"默认情况下，图标仅在 HTML 格式中输出。但如果您希望在 LaTeX 中输出 FontAwesome 图标，可以使用 [fontawesome 包](https://ctan.org/pkg/fontawesome)，并在配置中添加："

@@ -22,17 +22,18 @@ msgstr ""
 
 #: ../../grids.md:3
 msgid "Grids"
-msgstr ""
+msgstr "网格"
 
 #: ../../grids.md:5
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #: ../../grids.md:7
 msgid ""
 "Grids are based on a 12 column system, which can adapt to the size of the"
 " viewing screen."
 msgstr ""
+"网格基于 12 列系统，能够适应观看屏幕的大小。"
 
 #: ../../grids.md:9
 msgid ""
@@ -41,10 +42,12 @@ msgid ""
 "extra-small (<576px), small (768px), medium (992px) and large screens "
 "(>1200px), then child `grid-item` directives should be set for each item."
 msgstr ""
+"`grid` 指令可以设置默认列数（1 到 12）；可以是适用于所有屏幕大小的单一数字，也可以是四个数字，"
+"分别用于超小屏幕（<576px）、小屏幕（768px）、中屏幕（992px）和大屏幕（>1200px），然后应为每个项目设置子 `grid-item` 指令。"
 
 #: ../../grids.md:13
 msgid "Try re-sizing the screen to see the number of columns change:"
-msgstr ""
+msgstr "尝试调整屏幕大小以查看列数的变化："
 
 #: ../../grids.md:19 ../../grids.md:75 ../../grids.md:102 ../../grids.md:113
 #: ../../grids.md:144
@@ -66,25 +69,26 @@ msgstr ""
 
 #: ../../grids.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../grids.md:44
 msgid ""
 "You can also use the `auto` value for the column width(s), to size "
 "columns based on the natural width of their content."
 msgstr ""
+"您还可以使用 `auto` 值作为列宽，根据内容的自然宽度调整列的大小。"
 
 #: ../../grids.md:52 ../../grids.md:64
 msgid "short text content"
-msgstr ""
+msgstr "简短的文本内容"
 
 #: ../../grids.md:58
 msgid "some longer text content"
-msgstr ""
+msgstr "一些较长的文本内容"
 
 #: ../../grids.md:68
 msgid "Placing a card in a grid"
-msgstr ""
+msgstr "将卡片放置在网格中"
 
 #: ../../grids.md:70
 msgid ""
@@ -92,6 +96,7 @@ msgid ""
 " container inside a grid item (see [Cards](./cards.md)). Most of the "
 "`card` directive's options can be used also here:"
 msgstr ""
+"`grid-item-card` 指令是将卡片内容容器放置在网格项中的简写形式（参见 [Cards](./cards.md)）。大多数 `card` 指令的选项也可以在这里使用："
 
 #: ../../grids.md:74
 msgid "Title 1"
@@ -103,7 +108,7 @@ msgstr ""
 
 #: ../../grids.md:93
 msgid "Controlling spacing between items"
-msgstr ""
+msgstr "控制项之间的间距"
 
 #: ../../grids.md:95
 msgid ""
@@ -111,10 +116,11 @@ msgid ""
 " for grid columns, you can either provide a single number or four for "
 "small, medium and large and extra-large screens."
 msgstr ""
+"您可以使用 gutter 选项设置网格项之间的间距。与网格列类似，您可以提供单一数字，或者为小屏幕、中屏幕、大屏幕和超大屏幕提供四个数字。"
 
 #: ../../grids.md:132
 msgid "Item level column width"
-msgstr ""
+msgstr "项目级别的列宽"
 
 #: ../../grids.md:134
 msgid ""
@@ -126,10 +132,13 @@ msgid ""
 "columns, you can either provide a single number or four for small, medium"
 " and large and extra-large screens."
 msgstr ""
+"您可以通过使用 `grid-item` 指令的 `columns` 选项来覆盖单个项占用的列数。"
+"假设总列数为 12，这意味着 12 表示单个项占据整个网格行，或者 6 表示一半。或者，使用 `auto` 根据项内容自动决定使用多少列。"
+"与网格列类似，您可以提供单一数字，或者为小屏幕、中屏幕、大屏幕和超大屏幕提供四个数字。"
 
 #: ../../grids.md:169
 msgid "Reversing the item order"
-msgstr ""
+msgstr "反转项的顺序"
 
 #: ../../grids.md:171
 msgid ""
@@ -137,6 +146,7 @@ msgid ""
 "items. This can be useful if you want an item to be on the right side on "
 "large screens, but at the top on small screens."
 msgstr ""
+"使用 `grid` 指令的 `reverse` 选项来反转项的顺序。如果您希望某个项在大屏幕上位于右侧，但在小屏幕上位于顶部，这会很有用。"
 
 #: ../../grids.md:186
 msgid "Some text"
@@ -144,11 +154,11 @@ msgstr ""
 
 #: ../../grids.md:190
 msgid "Nesting grids"
-msgstr ""
+msgstr "嵌套网格"
 
 #: ../../grids.md:192
 msgid "Grids can be nested in other grids to create complex, adaptive layouts:"
-msgstr ""
+msgstr "网格可以嵌套在其他网格中，以创建复杂的自适应布局："
 
 #: ../../grids.md:205
 msgid "Item 1.1"
@@ -188,10 +198,11 @@ msgid ""
 "system](https://getbootstrap.com/docs/5.0/layout/grid/) for further "
 "details."
 msgstr ""
+"详情请参阅 [Bootstrap 网格系统](https://getbootstrap.com/docs/5.0/layout/grid/)。"
 
 #: ../../grids.md:263
 msgid "`grid` options"
-msgstr ""
+msgstr "`grid` 选项"
 
 #: ../../grids.md:265
 msgid "gutter"
@@ -202,6 +213,7 @@ msgid ""
 "Spacing between items. One or four integers (for \"xs sm md lg\") between"
 " 0 and 5."
 msgstr ""
+"项之间的间距。一个或四个整数（用于 \"xs sm md lg\"），范围在 0 到 5 之间。"
 
 #: ../../grids.md:269 ../../grids.md:295 ../../grids.md:321
 msgid "margin"
@@ -212,6 +224,7 @@ msgid ""
 "Outer margin of grid. One (all) or four (top bottom left right) values "
 "from: 0, 1, 2, 3, 4, 5, auto."
 msgstr ""
+"网格的外边距。一个（全部）或四个（上、下、左、右）值，可选：0、1、2、3、4、5、auto。"
 
 #: ../../grids.md:273 ../../grids.md:299 ../../grids.md:325
 msgid "padding"
@@ -222,6 +235,7 @@ msgid ""
 "Inner padding of grid. One (all) or four (top bottom left right) values "
 "from: 0, 1, 2, 3, 4, 5."
 msgstr ""
+"网格的内边距。一个（全部）或四个（上、下、左、右）值，可选：0、1、2、3、4、5。"
 
 #: ../../grids.md:277 ../../grids.md:309
 msgid "outline"
@@ -229,7 +243,7 @@ msgstr ""
 
 #: ../../grids.md:278
 msgid "Create a border around the grid."
-msgstr ""
+msgstr "在网格周围创建边框。"
 
 #: ../../grids.md:280
 msgid "reverse"
@@ -237,7 +251,7 @@ msgstr ""
 
 #: ../../grids.md:281
 msgid "Reverse the order of the grid items."
-msgstr ""
+msgstr "反转网格项的顺序。"
 
 #: ../../grids.md:283
 msgid "class-container"
@@ -245,7 +259,7 @@ msgstr ""
 
 #: ../../grids.md:284
 msgid "Additional CSS classes for the grid container element."
-msgstr ""
+msgstr "网格容器元素的附加 CSS 类。"
 
 #: ../../grids.md:286
 msgid "class-row"
@@ -253,11 +267,11 @@ msgstr ""
 
 #: ../../grids.md:287
 msgid "Additional CSS classes for the grid row element."
-msgstr ""
+msgstr "网格行元素的附加 CSS 类。"
 
 #: ../../grids.md:289
 msgid "`grid-item` options"
-msgstr ""
+msgstr "`grid-item` 选项"
 
 #: ../../grids.md:291 ../../grids.md:317
 msgid "columns"
@@ -269,18 +283,21 @@ msgid ""
 "integers (for \"xs sm md lg\") between 1 and 12 (or `auto` to adapt to "
 "the content)."
 msgstr ""
+"网格项将占用的列数（共 12 列）。一个或四个整数（用于“xs sm md lg”），范围在 1 到 12 之间（或使用 `auto` 以适应内容）。"
 
 #: ../../grids.md:296 ../../grids.md:322
 msgid ""
 "Outer margin of grid item. One (all) or four (top bottom left right) "
 "values from: 0, 1, 2, 3, 4, 5, auto."
 msgstr ""
+"网格项的外边距。一个（全部）或四个（上、下、左、右）值，可选：0、1、2、3、4、5、auto。"
 
 #: ../../grids.md:300 ../../grids.md:326
 msgid ""
 "Inner padding of grid item. One (all) or four (top bottom left right) "
 "values from: 0, 1, 2, 3, 4, 5."
 msgstr ""
+"网格项的内边距。一个（全部）或四个（上、下、左、右）值，可选：0、1、2、3、4、5。"
 
 #: ../../grids.md:303
 msgid "child-direction"
@@ -288,7 +305,7 @@ msgstr ""
 
 #: ../../grids.md:304
 msgid "Direction of children in the grid item: `column` (default) or `row`."
-msgstr ""
+msgstr "网格项中子元素的方向：`column` （默认）或 `row`。"
 
 #: ../../grids.md:306
 msgid "child-align"
@@ -299,10 +316,11 @@ msgid ""
 "Alignment of children, along the `child-direction`: `start` (default), "
 "`end`, `center`, `justify` or `spaced`."
 msgstr ""
+"子元素沿 `child-direction` 的对齐方式：`start` （默认）、`end`、`center`、`justify` 或 `spaced`。"
 
 #: ../../grids.md:310
 msgid "Create a border around the grid item."
-msgstr ""
+msgstr "在网格项周围创建边框。"
 
 #: ../../grids.md:312
 msgid "class"
@@ -310,11 +328,11 @@ msgstr ""
 
 #: ../../grids.md:313 ../../grids.md:330
 msgid "Additional CSS classes for the grid item element."
-msgstr ""
+msgstr "网格项元素的附加 CSS 类。"
 
 #: ../../grids.md:315
 msgid "`grid-item-card` options"
-msgstr ""
+msgstr "`grid-item-card` 选项"
 
 #: ../../grids.md:329
 msgid "class-item"
@@ -322,5 +340,5 @@ msgstr ""
 
 #: ../../grids.md:332
 msgid "Plus all options from [](cards:options)."
-msgstr ""
+msgstr "以及 [](cards:options) 中的所有选项。"
 

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../css_classes.md:1
 msgid "CSS Classes"
-msgstr ""
+msgstr "CSS 类"
 
 #: ../../css_classes.md:3
 msgid ""
@@ -30,6 +30,7 @@ msgid ""
 "available options to style components since, for example, this allows for"
 " better cross-output-format styling."
 msgstr ""
+"对于大多数角色/指令，优先建议使用可用的选项来设置组件的样式，因为例如，这样可以实现更好的 cross-output-format 样式。"
 
 #: ../../css_classes.md:5
 msgid ""
@@ -38,20 +39,23 @@ msgid ""
 "`div` directive. All CSS classes that are part of sphinx-design are "
 "prefixed with `sd-`."
 msgstr ""
+"但对于自定义情况，这些角色/指令还提供了 `class` 选项，用于直接向元素添加 CSS 类，或者您可以直接使用 `div` 指令。"
+"sphinx-design 中的所有 CSS 类均以 `sd-` 为前缀。"
 
 #: ../../css_classes.md:9
 msgid "Some CSS styled text"
-msgstr ""
+msgstr "一些 CSS 样式文本"
 
 #: ../../css_classes.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../css_classes.md:24
 msgid ""
 "If you find yourself using a class(es) often, consider opening an issue "
 "to request a new role/directive or option!"
 msgstr ""
+"如果您发现自己经常使用某个（些）类，请考虑提出问题，以请求添加新的角色/指令或选项！"
 
 #: ../../css_classes.md:26
 msgid ""
@@ -59,14 +63,15 @@ msgid ""
 "inline CSS styles, although it is not recommended to use this option for "
 "most cases."
 msgstr ""
+"`div` 指令还具有 `style` 选项，允许您添加内联 CSS 样式，但在大多数情况下不建议使用此选项。"
 
 #: ../../css_classes.md:28
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 #: ../../css_classes.md:30
 msgid "Classes are available for styling and alignment:"
-msgstr ""
+msgstr "可用于样式和对齐的类："
 
 #: ../../css_classes.md:32
 msgid "Alignment:"
@@ -205,6 +210,7 @@ msgid ""
 "Define the layout of an element and its children (see "
 "[`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display)):"
 msgstr ""
+"定义元素及其子元素的布局（参见 [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display)）："
 
 #: ../../css_classes.md:68
 msgid "`sd-d-none`"
@@ -243,6 +249,7 @@ msgid ""
 "Variants are also available for screen-sizes (xs, sm, md, lg), e.g. `sd-d"
 "-sm-none`."
 msgstr ""
+"还提供了针对屏幕尺寸（xs、sm、md、lg）的变体，例如 `sd-d-sm-none`。"
 
 #: ../../css_classes.md:79
 msgid ""
@@ -251,6 +258,7 @@ msgid ""
 "column` and `sd-align-major-center` will center the items in the vertical"
 " direction."
 msgstr ""
+"Flex 容器中的项目也可以根据主轴或副轴进行对齐，具体取决于 `flex-direction`。例如，使用 `sd-d-flex-column` 和 `sd-align-major-center` 将使项目在垂直方向上居中对齐。"
 
 #: ../../css_classes.md:82
 msgid "`sd-align-major-start`"
@@ -266,13 +274,14 @@ msgstr ""
 
 #: ../../css_classes.md:85
 msgid "`sd-align-major-spaced` (spaced to fill the full axis)"
-msgstr ""
+msgstr "`sd-align-major-spaced`（沿主轴均匀分布以填满整个轴）"
 
 #: ../../css_classes.md:86
 msgid ""
 "`sd-align-major-justify` (spaced to fill the full axis, with the "
 "first/last item on the edges of the axis)"
 msgstr ""
+"`sd-align-major-justify` （沿主轴均匀分布以填满整个轴，第一个/最后一个项目位于轴的边缘）"
 
 #: ../../css_classes.md:88
 msgid "`sd-align-minor-start`"
@@ -291,6 +300,7 @@ msgid ""
 "For more information, see [this guide to flexbox](https://css-"
 "tricks.com/snippets/css/a-guide-to-flexbox/)."
 msgstr ""
+"更多信息，请参阅 [Flexbox 指南](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)。"
 
 #: ../../css_classes.md:94
 msgid "Sizing"
@@ -298,7 +308,7 @@ msgstr ""
 
 #: ../../css_classes.md:96
 msgid "Size objects width/height by percentage:"
-msgstr ""
+msgstr "按百分比设置对象的宽度/高度："
 
 #: ../../css_classes.md:98
 msgid "`sd-width-25`, `sd-height-25`"
@@ -330,12 +340,14 @@ msgid ""
 " (`t`)op, (`r`)ight, (`b`)ottom, (`l`)eft, `x` (left and right), and `y` "
 "(top and bottom)."
 msgstr ""
+"可以使用这些类来控制内边距（`p`）和外边距（`m`）；方向包括 (`t`) 上、(`r`) 右、(`b`) 下、(`l`) 左、`x`（左右）和 `y`（上下）。"
 
 #: ../../css_classes.md:108
 msgid ""
 "Spacing are defined on a scale of 0 to 5, for example `sd-px-1` or `sd-"
 "mt-5`."
 msgstr ""
+"间距按 0 到 5 的等级定义，例如 `sd-px-1` 或 `sd-mt-5`。"
 
 #: ../../css_classes.md:110
 msgid ""
@@ -343,10 +355,11 @@ msgid ""
 " are used to set margins, or for only `x`/`y`; `sd-gx-{screen-"
 "size}-{spacing}`."
 msgstr ""
+"请注意，对于网格，使用特殊的间距类 `sd-g-{屏幕尺寸}-{间距}` 来设置外边距，或仅针对 `x`/`y` 方向；`sd-gx-{屏幕尺寸}-{间距}`。"
 
 #: ../../css_classes.md:112
 msgid "Colors"
-msgstr ""
+msgstr "颜色"
 
 #: ../../css_classes.md:114
 msgid ""
@@ -355,6 +368,8 @@ msgid ""
 "`warning`, `danger`, `info`, `light`, `dark`, and `muted`, and specific "
 "colors `black` and `white`."
 msgstr ""
+"可以使用 [CSS 变量](./css_variables.md) 设置颜色，"
+"这些变量为语义颜色名称定义：`primary`、`secondary`、`success`、`warning`、`danger`、`info`、`light`、`dark` 和 `muted`，以及特定颜色 `black` 和 `white`。"
 
 #: ../../css_classes.md:116
 msgid "`sd-bg-{name}`"
@@ -374,7 +389,7 @@ msgstr ""
 
 #: ../../css_classes.md:121
 msgid "Additional transparent colouring:"
-msgstr ""
+msgstr "额外的透明颜色："
 
 #: ../../css_classes.md:123
 msgid "`sd-bg-transparent`"
@@ -390,13 +405,14 @@ msgstr ""
 
 #: ../../css_classes.md:127
 msgid "Borders"
-msgstr ""
+msgstr "边框"
 
 #: ../../css_classes.md:129
 msgid ""
 "Borders can be applied to elements of thickness 0 to 5, for all are a "
 "specific side:"
 msgstr ""
+"可以为元素应用厚度为 0 到 5 的边框，适用于所有或特定的一侧："
 
 #: ../../css_classes.md:131
 msgid "`sd-border-{thickness}`"
@@ -444,7 +460,7 @@ msgstr ""
 
 #: ../../css_classes.md:178
 msgid "Border can be rounded by different amounts using:"
-msgstr ""
+msgstr "可以使用以下方式为边框设置不同的圆角程度："
 
 #: ../../css_classes.md:180 ../../css_classes.md:194
 msgid "`sd-rounded-0`"
@@ -472,13 +488,14 @@ msgstr ""
 
 #: ../../css_classes.md:228
 msgid "Shadows"
-msgstr ""
+msgstr "阴影"
 
 #: ../../css_classes.md:230
 msgid ""
 "Shadows can be applied to box elements (the color of the shadow is "
 "defined using `--sd-color-shadow` CSS variable):"
 msgstr ""
+"可以为盒子元素应用阴影（阴影的颜色使用 `--sd-color-shadow` CSS 变量定义）："
 
 #: ../../css_classes.md:232 ../../css_classes.md:243
 msgid "`sd-shadow-none`"
@@ -507,10 +524,11 @@ msgid ""
 "imagery](https://material.io/design/communication/imagery.html"
 "#informational-imagery))."
 msgstr ""
+"头像可以代表用户或品牌，带有徽标或品牌图形（参见 [Material Design 图像](https://material.io/design/communication/imagery.html#informational-imagery)）。"
 
 #: ../../css_classes.md:266
 msgid "These classes center an image, set their size and add a circular crop:"
-msgstr ""
+msgstr "这些类用于将图像居中、设置其大小并添加圆形裁剪："
 
 #: ../../css_classes.md:268
 msgid "`sd-avatar-xs`"
@@ -562,13 +580,14 @@ msgstr ""
 
 #: ../../css_classes.md:296
 msgid "Load Animations"
-msgstr ""
+msgstr "加载动画"
 
 #: ../../css_classes.md:298
 msgid ""
 "Add CSS animations when loading elements using the `sd-animate-{name}` "
 "classes:"
 msgstr ""
+"使用 `sd-animate-{name}` 类在加载元素时添加 CSS 动画："
 
 #: ../../css_classes.md:300
 msgid "`sd-animate-slide-from-left`"
@@ -597,4 +616,5 @@ msgid ""
 "[material.io](https://material.io/design/motion/understanding-motion.html"
 "#user-education) for good guides to animation."
 msgstr ""
-
+"请参阅 [uxdesign.cc](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) 和 "
+"[material.io](https://material.io/design/motion/understanding-motion.html#user-education) 获取关于动画的优秀指南。"

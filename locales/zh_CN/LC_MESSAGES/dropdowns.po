@@ -22,47 +22,50 @@ msgstr ""
 
 #: ../../dropdowns.md:3
 msgid "Dropdowns"
-msgstr ""
+msgstr "下拉菜单"
 
 #: ../../dropdowns.md:5
 msgid ""
 "Dropdowns can be used to toggle, usually *non-essential*, content and "
 "show it only when a user clicks on the header panel."
 msgstr ""
+"下拉菜单可用于切换通常 *非必要* 的内容，并且仅在用户点击标题面板时显示。"
 
 #: ../../dropdowns.md:7
 msgid ""
 "The dropdown can have a title, as the directive argument, and the `open` "
 "option can be used to initialise the dropdown in the open state."
 msgstr ""
+"下拉菜单可以拥有标题，作为指令的参数，并且可以使用 `open` 选项来初始化下拉菜单为展开状态。"
 
 #: ../../dropdowns.md:10 ../../dropdowns.md:14 ../../dropdowns.md:20
 #: ../../dropdowns.md:56 ../../dropdowns.md:62 ../../dropdowns.md:68
 #: ../../dropdowns.md:93 ../../dropdowns.md:104 ../../dropdowns.md:110
 msgid "Dropdown content"
-msgstr ""
+msgstr "下拉菜单内容"
 
 #: ../../dropdowns.md
 msgid "Dropdown title"
-msgstr ""
+msgstr "下拉菜单标题"
 
 #: ../../dropdowns.md
 msgid "Open dropdown"
-msgstr ""
+msgstr "打开下拉菜单"
 
 #: ../../dropdowns.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../dropdowns.md:35
 msgid "Opening animations"
-msgstr ""
+msgstr "展开动画"
 
 #: ../../dropdowns.md:37
 msgid ""
 "Use `:animate: fade-in` or `:animate: fade-in-slide-down` options to "
 "animate the reveal of the hidden content."
 msgstr ""
+"使用 `:animate: fade-in` 或 `:animate: fade-in-slide-down` 选项来为隐藏内容的展现添加动画效果。"
 
 #: ../../dropdowns.md
 msgid "Dropdown `fade-in`"
@@ -88,11 +91,11 @@ msgstr ""
 
 #: ../../dropdowns.md:51
 msgid "More examples"
-msgstr ""
+msgstr "更多例子"
 
 #: ../../dropdowns.md
 msgid "Dropdown with icon"
-msgstr ""
+msgstr "带图标的下拉菜单"
 
 #: ../../dropdowns.md
 msgid ""
@@ -100,40 +103,44 @@ msgid ""
 "consectetur adipiscing elit. Donec auctor, nunc nec fermentum ultricies, "
 "nunc sapien ultricies nunc, nec ultricies sapien sapien nec sapien*"
 msgstr ""
+"带有图标及冗长标题的下拉菜单，"
+"*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, "
+"nunc nec fermentum ultricies, nunc sapien ultricies nunc, nec ultricies sapien sapien nec sapien*"
 
 #: ../../dropdowns.md
 msgid "Using option `:chevron: down-up`"
-msgstr ""
+msgstr "使用选项`:chevron: down-up`"
 
 #: ../../dropdowns.md:71
 msgid "Dropdowns in other components"
-msgstr ""
+msgstr "其他组件中的下拉菜单"
 
 #: ../../dropdowns.md:73
 msgid ""
 "Dropdowns can be nested inside other components, such as inside parent "
 "dropdowns or within [grid items](./grids.md)."
 msgstr ""
+"下拉菜单可以嵌套在其他组件内，例如在父级下拉菜单中或嵌套在[网格项](./grids.md)内。"
 
 #: ../../dropdowns.md:75
 msgid "Here is an admonition with a dropdown"
-msgstr ""
+msgstr "这是带有下拉菜单的提示框"
 
 #: ../../dropdowns.md:77
 msgid "Admonition content"
-msgstr ""
+msgstr "提示框内容"
 
 #: ../../dropdowns.md
 msgid "Dropdown inside admonition"
-msgstr ""
+msgstr "提示框内的下拉菜单"
 
 #: ../../dropdowns.md
 msgid "Parent dropdown title"
-msgstr ""
+msgstr "父级下拉菜单标题"
 
 #: ../../dropdowns.md
 msgid "Child dropdown title"
-msgstr ""
+msgstr "子级下拉菜单标题"
 
 #: ../../dropdowns.md
 msgid "Dropdown Column 1"
@@ -145,7 +152,7 @@ msgstr ""
 
 #: ../../dropdowns.md:114
 msgid "`dropdown` options"
-msgstr ""
+msgstr "`dropdown` 选项"
 
 #: ../../dropdowns.md:116
 msgid "open"
@@ -153,7 +160,7 @@ msgstr ""
 
 #: ../../dropdowns.md:117
 msgid "Open the dropdown by default."
-msgstr ""
+msgstr "默认展开下拉菜单。"
 
 #: ../../dropdowns.md:119
 msgid "color"
@@ -165,6 +172,8 @@ msgid ""
 "semantic color names: `primary`, `secondary`, `success`, `danger`, "
 "`warning`, `info`, `light`, `dark`, `muted`."
 msgstr ""
+"设置下拉菜单标题的颜色（背景和字体）。"
+"使用语义颜色名称之一：`primary`、`secondary`、`success`、`danger`、`warning`、`info`、`light`、`dark`、`muted`。"
 
 #: ../../dropdowns.md:123
 msgid "icon"
@@ -172,7 +181,7 @@ msgstr ""
 
 #: ../../dropdowns.md:124
 msgid "Set an [octicon icon](icons) to prefix the dropdown header."
-msgstr ""
+msgstr "为下拉菜单标题前缀设置[Octicon图标](icons)。"
 
 #: ../../dropdowns.md:126
 msgid "chevron"
@@ -180,7 +189,7 @@ msgstr ""
 
 #: ../../dropdowns.md:127
 msgid "The open-close direction of the chevron. One of: `right-down`, `down-up`."
-msgstr ""
+msgstr "指示箭头（chevron）的展开-关闭方向。可选值之一：`right-down`、`down-up`。"
 
 #: ../../dropdowns.md:130
 msgid "animate"
@@ -188,7 +197,7 @@ msgstr ""
 
 #: ../../dropdowns.md:131
 msgid "Animate the dropdown opening (`fade-in` or `fade-in-slide-down`)."
-msgstr ""
+msgstr "为下拉菜单的展开添加动画效果（`fade-in` 或 `fade-in-slide-down`）。"
 
 #: ../../dropdowns.md:133
 msgid "margin"
@@ -199,6 +208,7 @@ msgid ""
 "Outer margin of grid. One (all) or four (top bottom left right) values "
 "from: 0, 1, 2, 3, 4, 5, auto."
 msgstr ""
+"网格的外边距。可设置一个值（所有边）或四个值（上、下、左、右），可选值为：0、1、2、3、4、5、auto。"
 
 #: ../../dropdowns.md:137
 msgid "name"
@@ -206,7 +216,7 @@ msgstr ""
 
 #: ../../dropdowns.md:138
 msgid "Set a reference-able name for the dropdown container."
-msgstr ""
+msgstr "为下拉菜单容器设置可引用的名称。"
 
 #: ../../dropdowns.md:140
 msgid "class-container"

@@ -22,13 +22,14 @@ msgstr ""
 
 #: ../../additional.md:3
 msgid "Additional"
-msgstr ""
+msgstr "附加功能"
 
 #: ../../additional.md:5
 msgid ""
 "These are additional components that are not part of the standard "
 "Materials Design or Bootstrap systems."
 msgstr ""
+"这些是附加组件，不属于标准的 Material Design 或 Bootstrap 系统。"
 
 #: ../../additional.md:7
 msgid "`article-info`"
@@ -40,6 +41,7 @@ msgid ""
 "article, normally positioned just below the title of the article (shown "
 "below with non-standard outline)."
 msgstr ""
+"该指令用于显示文章的信息块，通常位于文章标题下方（如下所示，带有非标准轮廓）。"
 
 #: ../../additional.md:12
 msgid "Executable Books"
@@ -69,13 +71,14 @@ msgstr ""
 
 #: ../../additional.md
 msgid "Syntax"
-msgstr ""
+msgstr "语法"
 
 #: ../../additional.md:34
 msgid ""
 "The `author`, `date`, and `read-time` options are parsed as syntax, so "
 "you can use substitutions like:"
 msgstr ""
+"`author`、`date` 和 `read-time` 选项被解析为语法，因此您可以使用如下替换："
 
 #: ../../additional.md:37
 msgid "`date`"
@@ -99,7 +102,7 @@ msgstr ""
 
 #: ../../additional.md:43
 msgid "options"
-msgstr ""
+msgstr "选项"
 
 #: ../../additional.md:45
 msgid "avatar"
@@ -110,6 +113,7 @@ msgid ""
 "A URI (relative file path or URL) to an image for use as the avatar (a "
 "user portrait, logo or branded graphic)."
 msgstr ""
+"用作头像（用户肖像、徽标或品牌图形）的图像的 URI（相对文件路径或 URL）。"
 
 #: ../../additional.md:48
 msgid "avatar-alt"
@@ -117,7 +121,7 @@ msgstr ""
 
 #: ../../additional.md:49
 msgid "Alternative text for the avatar."
-msgstr ""
+msgstr "可选的头像文本。
 
 #: ../../additional.md:51
 msgid "avatar-link"
@@ -125,7 +129,7 @@ msgstr ""
 
 #: ../../additional.md:52
 msgid "A URL to link to if the avatar icon is clicked."
-msgstr ""
+msgstr "如果点击了头像图标，则链接到的 URL。"
 
 #: ../../additional.md:54
 msgid "avatar-outline"
@@ -133,7 +137,7 @@ msgstr ""
 
 #: ../../additional.md:55
 msgid "A semantic color to use for the outline of the avatar."
-msgstr ""
+msgstr "用于头像轮廓的语义颜色。"
 
 #: ../../additional.md:57
 msgid "author"
@@ -141,7 +145,7 @@ msgstr ""
 
 #: ../../additional.md:58
 msgid "Text to display in the author of of the article."
-msgstr ""
+msgstr "显示在文章作者中的文本。"
 
 #: ../../additional.md:60
 msgid "date"
@@ -149,7 +153,7 @@ msgstr ""
 
 #: ../../additional.md:61
 msgid "Text to display in the date of the article."
-msgstr ""
+msgstr "显示在文章日期中的文本。"
 
 #: ../../additional.md:63
 msgid "read-time"
@@ -157,7 +161,7 @@ msgstr ""
 
 #: ../../additional.md:64
 msgid "Text to indicate the time to read the article."
-msgstr ""
+msgstr "指示阅读文章所需时间的文本。"
 
 #: ../../additional.md:66
 msgid "class-container"
@@ -165,7 +169,7 @@ msgstr ""
 
 #: ../../additional.md:67
 msgid "Additional CSS classes for the container element."
-msgstr ""
+msgstr "容器元素的附加 CSS 类。"
 
 #: ../../additional.md:69
 msgid "class-avatar"
@@ -173,5 +177,5 @@ msgstr ""
 
 #: ../../additional.md:70
 msgid "Additional CSS classes for the avatar element."
-msgstr ""
+msgstr "头像元素的附加 CSS 类。"
 

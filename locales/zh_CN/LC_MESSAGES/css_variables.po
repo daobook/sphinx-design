@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../css_variables.md:1
 msgid "CSS Variables"
-msgstr ""
+msgstr "CSS 变量"
 
 #: ../../css_variables.md:3
 msgid ""
@@ -33,16 +33,20 @@ msgid ""
 "source folder (see [the sphinx documentation](https://www.sphinx-"
 "doc.org/en/master/usage/configuration.html#confval-html_css_files)):"
 msgstr ""
+"sphinx-design 使用的所有颜色均定义为 [CSS 变量](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)。"
+"因此，可以通过在项目的源文件夹中的 `_static` 文件夹中添加 `.css` 文件来覆盖这些颜色"
+"（参见 [sphinx 文档](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_css_files)）："
 
 #: ../../css_variables.md:11
 msgid ""
 "For colors, there are nine semantic colors that can be defined. For each "
 "of these colors you should define:"
 msgstr ""
+"对于颜色，可以定义九种语义颜色。对于每种颜色，您应定义："
 
 #: ../../css_variables.md:14
 msgid "`--sd-color-{name}` as the actual color"
-msgstr ""
+msgstr "`--sd-color-{name}` 作为实际颜色"
 
 #: ../../css_variables.md:15
 #, python-format
@@ -51,6 +55,7 @@ msgid ""
 "highlighted (e.g. if hovering over a button). By default, this is a 15% "
 "darker version of the original color."
 msgstr ""
+"`--sd-color-{name}-highlight` 作为组件高亮时使用的颜色（例如，悬停在按钮上时）。默认情况下，这是原始颜色加深 15% 的版本。"
 
 #: ../../css_variables.md:17
 msgid ""
@@ -58,8 +63,9 @@ msgid ""
 " the color. By default, this is dark grey for light colors and white for "
 "dark colors."
 msgstr ""
+"`--sd-color-{name}-text` 作为在该颜色上显示的文本颜色。默认情况下，浅色背景使用深灰色，深色背景使用白色。"
 
 #: ../../css_variables.md:20
 msgid "The defaults are:"
-msgstr ""
+msgstr "默认："
 

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../get_started.md:1
 msgid "Getting Started"
-msgstr ""
+msgstr "快速上手"
 
 #: ../../get_started.md:3
 msgid "Chris Sewell"
@@ -52,13 +52,14 @@ msgstr ""
 
 #: ../../get_started.md:12
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: ../../get_started.md:14
 msgid ""
 "Simply pip install `sphinx-design` and add the extension to your "
 "`conf.py`:"
 msgstr ""
+"只需通过 pip 安装 `sphinx-design` 并将插件添加到您的 conf.py 文件中："
 
 #: ../../get_started.md:20
 msgid ""
@@ -66,14 +67,16 @@ msgid ""
 "parser), for Markdown documentation, it is recommended to use the "
 "`colon_fence` syntax extension:"
 msgstr ""
+"为了与 [MyST Parser](https://github.com/executablebooks/myst-"
+"parser) 配合使用（用于 Markdown 文档），建议启用 `colon_fence` 语法扩展："
 
 #: ../../get_started.md:27
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: ../../get_started.md:29
 msgid "To hide the the title header of a page, add to the top of the page:"
-msgstr ""
+msgstr "要隐藏页面的标题头，请在页面顶部添加："
 
 #: ../../get_started.md
 msgid "MyST Markdown"
@@ -85,37 +88,40 @@ msgstr ""
 
 #: ../../get_started.md:46
 msgid "Creating custom directives"
-msgstr ""
+msgstr "创建自定义指令"
 
 #: ../../get_started.md:51
 msgid ""
 "You can use the `sd_custom_directives` configuration option in your "
 "`conf.py` to add custom directives, with default option values:"
 msgstr ""
+"您可以在 conf.py 中使用 `sd_custom_directives` 配置选项来添加自定义指令，并设置默认选项值："
 
 #: ../../get_started.md:66
 msgid ""
 "The key is the new directive name to add, and the value is a dictionary "
 "with the following keys:"
 msgstr ""
+"键是要添加的新指令名称，值是包含以下键的字典："
 
 #: ../../get_started.md:68
 msgid "`inherit`: The directive to inherit from (e.g. `dropdown`)"
-msgstr ""
+msgstr "`inherit`: 要继承的指令（例如 `dropdown`）"
 
 #: ../../get_started.md:69
 msgid ""
 "`argument`: The default argument (optional, only for directives that take"
 " a single argument)"
 msgstr ""
+"`argument`: 默认参数（可选，仅适用于接受单个参数的指令）"
 
 #: ../../get_started.md:70
 msgid "`options`: A dictionary of default options for the directive (optional)"
-msgstr ""
+msgstr "`options`: 指令的默认选项（可选）"
 
 #: ../../get_started.md:72
 msgid "Supported browsers"
-msgstr ""
+msgstr "支持的浏览器"
 
 #: ../../get_started.md:74
 msgid "Chrome >= 60"
@@ -147,7 +153,7 @@ msgstr ""
 
 #: ../../get_started.md:83
 msgid "Migrating from sphinx-panels"
-msgstr ""
+msgstr "从 sphinx-panels 迁移"
 
 #: ../../get_started.md:85
 msgid ""
@@ -156,38 +162,40 @@ msgid ""
 "intention to make it more flexible, easier to use, and minimise CSS "
 "clashes wth sphinx themes."
 msgstr ""
+"该包是作为 [sphinx-panels](https://github.com/executablebooks/sphinx-panels) 的迭代版本而诞生的，"
+"旨在使其更加灵活、更易于使用，并尽量减少与 Sphinx 主题的 CSS 冲突。"
 
 #: ../../get_started.md:87
 msgid "Notable changes:"
-msgstr ""
+msgstr "显著变化："
 
 #: ../../get_started.md:89
 msgid "Reduce direct use of CSS classes"
-msgstr ""
+msgstr "减少 CSS 类的直接使用"
 
 #: ../../get_started.md:91
 msgid "These are replaced by the use of directive options, which are:"
-msgstr ""
+msgstr "这些被指令选项所取代，指令选项如下："
 
 #: ../../get_started.md:93
 msgid "Easier to understand"
-msgstr ""
+msgstr "更易于理解"
 
 #: ../../get_started.md:94
 msgid "Easier to validate"
-msgstr ""
+msgstr "更易于验证"
 
 #: ../../get_started.md:95
 msgid "Easier to work with non-HTML outputs"
-msgstr ""
+msgstr "更易于处理非 HTML 输出"
 
 #: ../../get_started.md:96
 msgid "Easier to improve/refactor"
-msgstr ""
+msgstr "更易于改进/重构"
 
 #: ../../get_started.md:98
 msgid "`panel` directive replaced"
-msgstr ""
+msgstr "`panel` 指令被取代"
 
 #: ../../get_started.md:100
 msgid ""
@@ -195,52 +203,58 @@ msgid ""
 "directive, then using `grid-item-card` directive children, rather than "
 "delimiting cards by `---`."
 msgstr ""
+"`panel` 指令被顶层的 `grid` 指令取代，然后使用 `grid-item-card` 指令作为子元素，而不是通过 `---` 分隔卡片。"
 
 #: ../../get_started.md:103
 msgid ""
 "If no card is needed, then the `grid-item` directive can be used instead "
 "and `card` can be also used independently of grids."
 msgstr ""
+"如果不需要卡片，则可以使用 `grid-item` 指令，并且 `card` 也可以独立于网格使用。"
 
 #: ../../get_started.md:105
 msgid ""
 "Approximately, `.. panels::` is equivalent to `.. grid:: 1 2 2 2` with "
 "option `:gutter: 2`."
 msgstr ""
+"大致上，`.. panels::` 等同于 `.. grid:: 1 2 2 2` 并带有选项 `:gutter: 2`。"
 
 #: ../../get_started.md:107
 msgid "`tabbed` directive replaced"
-msgstr ""
+msgstr "`tabbed` 指令被取代"
 
 #: ../../get_started.md:109
 msgid ""
 "The `tabbed` directive is replaced by the use of the top-level `tab-set` "
 "directive, then using `tab-item` directive children."
 msgstr ""
+"`tabbed` 指令被顶层的 `tab-set` 指令取代，然后使用 `tab-item` 指令作为子元素。"
 
 #: ../../get_started.md:112
 msgid "The `:sync:` option allows to synchronize tab selection across sets."
-msgstr ""
+msgstr "`:sync:` 选项允许跨集合同步选项卡选择。"
 
 #: ../../get_started.md:114
 msgid ""
 "The `tab-set-code` directive provides a shorthand for synced code "
 "examples."
 msgstr ""
+"`tab-set-code` 指令为同步代码示例提供了一种简写方式。"
 
 #: ../../get_started.md:116
 msgid "`link-button` directive replaced"
-msgstr ""
+msgstr "`link-button` 指令被取代"
 
 #: ../../get_started.md:118
 msgid ""
 "The `link-button` directive is replaced by the use of `button-ref"
 "`/`button-link`."
 msgstr ""
+"`link-button` 指令被 `button-ref`/`button-link` 取代。"
 
 #: ../../get_started.md:120
 msgid "Directive options have also been added to replace the use of classes:"
-msgstr ""
+msgstr "还添加了指令选项以替代类的使用："
 
 #: ../../get_started.md:122
 msgid "`stretched-link` -> `:click-parent:`"
@@ -252,7 +266,7 @@ msgstr ""
 
 #: ../../get_started.md:125
 msgid "`octicon` icon role"
-msgstr ""
+msgstr "`octicon` 图标角色"
 
 #: ../../get_started.md:127
 msgid ""
@@ -260,30 +274,34 @@ msgid ""
 "(i.e. using `1em`). The syntax for specifying a custom size and adding "
 "classes is also changed."
 msgstr ""
+"现在生成的默认 SVG 大小相对于周围文本（即使用 `1em`）。指定自定义大小和添加类的语法也发生了变化。"
 
 #: ../../get_started.md:130
 msgid ""
 "This is similar for favicon icons, where the `,` delimiter is also "
 "replaced by `;`, e.g. ``:fa:`name,class` `` -> ``:fa:`name;class` ``."
 msgstr ""
+"对于 favicon 图标也是如此，其中 `,` 分隔符也被替换为 `;`，例如 ``:fa:`name,class` `` -> ``:fa:`name;class` ``。"
 
 #: ../../get_started.md:132
 msgid "Improved CSS"
-msgstr ""
+msgstr "改善 CSS"
 
 #: ../../get_started.md:134
 msgid ""
 "Updated Bootstrap CSS from v4 -> v5, which in particular allows top-level"
 " grid to define both column numbers and gutter sizes."
 msgstr ""
+"将 Bootstrap CSS 从 v4 更新到 v5，特别是允许顶层网格定义列数和间距大小。"
 
 #: ../../get_started.md:137
 msgid ""
 "All CSS classes are prefixed with `sd-` (no clash with other "
 "theme/extension CSS)"
 msgstr ""
+"所有 CSS 类都以 `sd-` 为前缀（不会与其他主题/扩展的 CSS 冲突）"
 
 #: ../../get_started.md:139
 msgid "All colors use CSS variables (customisable)"
-msgstr ""
+msgstr "所有颜色都使用 CSS 变量（可自定义）"
 
