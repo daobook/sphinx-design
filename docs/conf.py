@@ -6,7 +6,7 @@ project = "Sphinx Design"
 copyright = "2021, Executable Book Project"
 author = "Executable Book Project"
 
-extensions = ["myst_parser", "sphinx_design", "sphinx.ext.extlinks"]
+extensions = ["mystx", "sphinx_design", "sphinx.ext.extlinks"]
 
 suppress_warnings = ["design.fa-build"]
 sd_fontawesome_latex = True
@@ -26,7 +26,7 @@ extlinks = {
     "user": ("https://github.com/%s", "@%s"),
 }
 
-html_theme = os.environ.get("SPHINX_THEME", "alabaster")
+html_theme = os.environ.get("SPHINX_THEME", "mystx")
 html_title = f"Sphinx Design ({html_theme.replace('_', '-')})"
 
 html_static_path = ["_static"]
